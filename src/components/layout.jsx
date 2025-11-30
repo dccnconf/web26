@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from './Navbar';
 import Footer from "./Footer";
 
-export const siteTitle = "DCCN'2025";
+export const siteTitle = "DCCN'2026";
 
 export default function Layout({ pageTitle, active = "", children }) {
   return (
@@ -18,7 +18,7 @@ export default function Layout({ pageTitle, active = "", children }) {
         <meta name="theme-color" content="#ffffff" />
         <meta
           name="description"
-          content="DCCN'2025 International Conference"
+          content="DCCN'2026 International Conference"
         />
         <meta
           property="og:image"

@@ -24,10 +24,6 @@
   "affiliations": [{"slug":"ireras"}],
   "ieee": "member"
 }, {
-  "name": "A.S. Bugaev",
-  "affiliations": [{"slug":"mipt"}],
-  "ieee": "member"
-}, {
   "name": "S.R. Chakravarthy",
   "affiliations": [{"slug":"kettering"}]
 }, {
@@ -74,10 +70,10 @@
   "affiliations": [{"slug":"cochin"}]
 }, {
   "name": "R. Kumar",
-  "affiliations": [{"slug":"nust"}]
+  "affiliations": [{"slug":"shri"}]
 }, {
   "name": "N.A. Kuznetsov",
-  "affiliations": [{"slug":"mipt"}],
+  "affiliations": [{"slug":"ireras"}],
   "ieee": "member"
 }, {
   "name": "L. Lakatos",
@@ -121,7 +117,7 @@
   "affiliations": [{"slug":"msu"}]
 }, {
   "name": "A.N. Sobolevski",
-  "affiliations": [{"slug":"iitp"}]
+  "affiliations": [{"slug":"mipt"}]
 }, {
   "name": "M.A. Sneps-Sneppe",
   "affiliations": [{"slug":"ventspils"}]

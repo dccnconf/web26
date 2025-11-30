@@ -18,7 +18,7 @@ import {getAllTpcMembers} from "../libs/tpc";
 
 export default function Home({committeeMembers, organizations, topics, deadlines, tpcMembers, fees}) {
   return (
-    <Layout pageTitle={"DCCN'2025"} active="conference">
+    <Layout pageTitle="DCCN'2026" active="conference">
       <div className="lg:pb-12">
         <Hero/>
       </div>
@@ -98,7 +98,7 @@ export default function Home({committeeMembers, organizations, topics, deadlines
           <div>
             <h3 className="h3">Organizers & sponsors</h3>
             <p className="md:leading-7 md:text-xl md:mx-auto text-gray-700 lg:w-3/4 text-center mt-4">
-              The DCCN-2025 conference is organized under the support of the IEEE Russia Section, Communications Society Chapter (COM19).
+              The DCCN-2026 conference is organized under the support of the IEEE Russia Section, Communications Society Chapter (COM19).
             </p>
             <SponsorsImageGallery
               organizations={organizations}
@@ -123,6 +123,10 @@ export default function Home({committeeMembers, organizations, topics, deadlines
           <div className="flex flex-col-reverse justify-center align-center xl:flex-row">
             <div className="py-12 text-gray-600 xl:w-1/2 ">
               <ul className="text-center list-disc ml-8 mt-8 m-auto text-xl xl:text-justify">
+                <li className="mb-4">
+                  <a target="_blank" href="https://2025.dccn.ru" className="text-blue-500 hover:underline">28th
+                    International Conference on Distributed Computer and Communication Networks DCCN 2025</a>
+                </li>
                 <li className="mb-4">
                   <a target="_blank" href="https://2024.dccn.ru" className="text-blue-500 hover:underline">27th
                     International Conference on Distributed Computer and Communication Networks DCCN 2024</a>

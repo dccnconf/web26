@@ -32,7 +32,7 @@ const CFP = ({topics, className = ""} = {}) => {
          target="_blank"
          className="text-indigo-700">
         <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
-        <span className="text-lg align-middle">Overleaf DCCN'2025 Submission Template (RUS)</span>
+        <span className="text-lg align-middle">Overleaf DCCN'2026 Submission Template (RUS)</span>
       </a>
     </div>
     <div className="mt-4 pl-8">
@@ -40,7 +40,7 @@ const CFP = ({topics, className = ""} = {}) => {
          target="_blank"
          className="text-indigo-700">
         <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
-        <span className="text-lg align-middle">Overleaf DCCN'2025 Submission Template (ENG)</span>
+        <span className="text-lg align-middle">Overleaf DCCN'2026 Submission Template (ENG)</span>
       </a>
     </div>
 

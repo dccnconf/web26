@@ -14,7 +14,7 @@ const Footer = () => (
             </Link>
             <div className="text-gray-500 md:mt-2">
               <Link href={"/"} className="hover:underline leading-7 font-medium lg:text-xl">
-                DCCN'2025
+                DCCN'2026
               </Link>
               <div className="text-xs font-medium">
                 All rights reserved

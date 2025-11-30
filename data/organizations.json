@@ -311,5 +311,10 @@
   "slug": "beu",
   "name": "Baku Engineering University",
   "country": "Azerbaijan"
+}, {
+  "id": 53,
+  "slug": "shri",
+  "name": "Shri Mata Vaishno Devi University",
+  "country": "India"
 }
 ]

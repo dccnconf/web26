@@ -160,7 +160,7 @@ export default function Navbar({active = 'conference'}) {
  **********************************************************************/
 const Brand = () => (
   <Link href="/" className="font-bold">
-    DCCN'2025
+    DCCN'2026
   </Link>
 );
 
@@ -220,7 +220,7 @@ const ProgramMenu = ({onClick}) => (
   <>
     <NavbarDropdownMenuItem
       href="/program" icon={faCalendarAlt} text="Conference Schedule"
-      comment="General schedule of DCCN'2025 conference"
+      comment="General schedule of DCCN'2026 conference"
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
