@@ -1,0 +1,51 @@
+[{
+  "name": "Vladimir M. Vishnevsky",
+  "slug": "vishn",
+  "chair": true,
+  "affiliations": [{"slug":  "ipu"}, {"slug":  "ieee"}],
+  "avatar": "/images/avatars/vishnevsky.jpg",
+  "order": 1
+}, {
+  "name": "Konstantin E. Samouylov",
+  "slug": "sam",
+  "chair": true,
+  "affiliations": [{"slug":  "rudn"}],
+  "avatar": "/images/avatars/samouylov.jpg",
+  "order": 2
+}, {
+  "name": "Dmitry Kozyrev",
+  "slug": "dmitry",
+  "affiliations": [{"slug": "ipu"}, {"slug": "rudn"}],
+  "avatar": "/images/avatars/kozyrev.jpeg",
+  "order": 3
+}, {
+  "name": "Irina Kochetkova",
+  "slug": "gudkova",
+  "affiliations": [{"slug":  "rudn"}],
+  "avatar": "/images/avatars/gudkova.jpeg",
+  "order": 4
+}, {
+  "name": "Yana Aleksandrova",
+  "slug": "yana",
+  "affiliations": [{"slug":  "ipu"}],
+  "avatar": "/images/avatars/yana_aleksandrova.png",
+  "order": 5
+}, {
+  "name": "Svetlana Moiseeva",
+  "slug": "moiseeva",
+  "affiliations": [{"slug":  "tsu"}],
+  "avatar": "/images/avatars/moiseeva.png",
+  "order": 6
+}, {
+  "name": "Nika Ivanova",
+  "slug": "nika",
+  "affiliations": [{"slug":  "ipu"}],
+  "avatar": "/images/avatars/ivanova_nika.jpg",
+  "order": 7
+}, {
+  "name": "Tatiana Atanasova",
+  "slug": "atanasova",
+  "affiliations": [{"slug":  "iict"}],
+  "avatar": "/images/avatars/atanasova.jpg",
+  "order": 8
+}]

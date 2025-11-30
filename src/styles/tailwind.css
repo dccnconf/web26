@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+
+p {
+  @apply mb-4;
+}
+
+.text-link {
+  @apply text-blue-400;
+}
+
+.article-text p {
+  @apply mb-8;
+}
+
+.article-text ul {
+  @apply list-disc ml-8 mb-8;
+}
+
+.article-text blockquote {
+  @apply text-2xl italic p-4 bg-gray-200 from-gray-800 mb-8;
+}
+
+/* COMMON HEADERS */
+.h2 {
+  @apply text-center font-extrabold text-3xl;
+}
+.h3 {
+  @apply text-center font-extrabold text-gray-900 text-2xl;
+}
+.h4 {
+  @apply font-extrabold text-gray-900 text-2xl;
+}
+
+@screen md {
+  .h2 {
+    @apply text-5xl mt-12;
+  }
+  .h3 {
+    @apply text-3xl mt-8;
+  }
+  .h4 {
+    @apply text-2xl mt-8;
+  }
+}
+
+.markdown-box ul {
+  list-style: disc;
+  @apply pl-8;
+}
+.markdown-box ol {
+  list-style: decimal;
+  @apply pl-8;
+}
+.markdown-box li {
+  @apply my-2;
+}
+
+.th {
+  @apply px-6 text-left text-xs leading-4 font-medium text-gray-800 uppercase tracking-wider;
+}
+
+
+@tailwind utilities;

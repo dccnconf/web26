@@ -1,0 +1,315 @@
+[{
+  "id": 1,
+  "slug": "ipu",
+  "shortName": "ICS RAS",
+  "name": "V.A. Trapeznikov Institute of Control Sciences of RAS",
+  "country": "Russia",
+  "city": "Moscow",
+  "logotype": "/images/logotypes/ipu.svg",
+  "url": "https://www.ipu.ru/en",
+  "member": {
+    "order": 1
+  }
+},{
+  "id": 47,
+  "slug": "incet",
+  "shortName": "INSET",
+  "name": "V.A. R&D CJSC INSET",
+  "country": "Russia",
+  "city": "Moscow",
+  "logotype": "/images/logotypes/incet.png",
+  "member": {
+    "order": 5
+  }
+}, {
+  "id": 2,
+  "slug": "rudn",
+  "shortName": "RUDN",
+  "name": "RUDN University",
+  "country": "Russia",
+  "city": "Moscow",
+  "logotype": "/images/logotypes/rudn.svg",
+  "url": "http://eng.rudn.ru/",
+  "member": {
+    "order": 2,
+    "type": "Organizer"
+  }
+}, {
+  "id": 3,
+  "slug": "tsu",
+  "shortName": "TSU",
+  "name": "Tomsk State University",
+  "country": "Russia",
+  "city": "Tomsk",
+  "logotype": "/images/logotypes/tsu.svg",
+  "url": "http://en.tsu.ru/",
+  "member": {
+    "order": 4,
+    "type": "Organizer"
+  }
+}, {
+  "id": 4,
+  "slug": "iict",
+  "shortName": "IICT BAS",
+  "name": "Institute of Information and Communication Technologies of BAS",
+  "country": "Bulgaria",
+  "city": "Sofia",
+  "logotype": "/images/logotypes/iict.svg",
+  "url": "http://www.iict.bas.bg/EN/contacts.html",
+  "member": {
+    "order": 6,
+    "type": "Organizer"
+  }
+}, {
+  "id": 5,
+  "slug": "5100",
+  "shortName": "5-100",
+  "name": "Project 5-100: Russian Academic Excellence Project",
+  "country": "Russia",
+  "logotype": "/images/logotypes/5100.png",
+  "url": "https://5top100.ru/en/"
+}, {
+  "id": 6,
+  "slug": "springer",
+  "shortName": "Springer",
+  "name": "Springer",
+  "country": "Switzerland",
+  "logotype": "/images/logotypes/springer.png",
+  "url": "https://www.springer.com/gp",
+  "member": {
+    "order": 7,
+    "type": "Informational sponsor"
+  }
+}, {
+  "id": 7,
+  "slug": "psiras",
+  "name": "Program Systems Institute of RAS",
+  "country": "Russia"
+}, {
+  "id": 8,
+  "slug": "tampere",
+  "name": "Tampere University of Technology",
+  "country": "Finland"
+}, {
+  "id": 9,
+  "slug": "tti",
+  "name": "Transport and Telecommunication Institute",
+  "country": "Latvia"
+}, {
+  "id": 10,
+  "slug": "mcmaster",
+  "name": "McMaster University",
+  "country": "Canada"
+}, {
+  "id": 11,
+  "slug": "mipt",
+  "name": "Moscow Institute of Physics and Technology",
+  "country": "Russia"
+}, {
+  "id": 12,
+  "slug": "kettering",
+  "name": "Kettering University",
+  "country": "USA"
+}, {
+  "id": 13,
+  "slug": "iipas",
+  "name": "Institute of informatics of Polish Academy of Sciences",
+  "country": "Poland"
+}, {
+  "id": 14,
+  "slug": "bsu",
+  "name": "Belarusian state university",
+  "country": "Belarus"
+}, {
+  "id": 15,
+  "slug": "ncue",
+  "name": "National Changhua University of Education",
+  "country": "Taiwan"
+}, {
+  "id": 16,
+  "slug": "psgdecs",
+  "name": "Politechnika Slaska w Gliwicach, Department of Electronics and Computer Science",
+  "country": "Poland"
+}, {
+  "id": 17,
+  "slug": "york",
+  "name": "York University",
+  "country": "UK"
+}, {
+  "id": 18,
+  "slug": "ireras",
+  "name": "Kotelnikov Institute of Radio Engineering and Electronics of RAS",
+  "country": "Russia"
+}, {
+  "id": 19,
+  "slug": "brno",
+  "name": "Brno University of Technology",
+  "country": "Czech Republic"
+}, {
+  "id": 20,
+  "slug": "cms",
+  "name": "CMS College, Department of Mathematics",
+  "country": "India"
+}, {
+  "id": 21,
+  "slug": "aristotle",
+  "name": "Aristotle University of Thessaloniki",
+  "country": "Greece"
+}, {
+  "id": 22,
+  "slug": "saopaulo",
+  "name": "University of Sao Paulo",
+  "country": "Brazil"
+}, {
+  "id": 23,
+  "slug": "nask",
+  "name": "NASK",
+  "country": "Poland",
+  "city": "Warsaw"
+}, {
+  "id": 24,
+  "slug": "kepler",
+  "name": "Johannes Kepler University Linz",
+  "country": "Austria"
+}, {
+  "id": 25,
+  "slug": "aalborg",
+  "name": "Aalborg University",
+  "country": "Denmark"
+}, {
+  "id": 26,
+  "slug": "bamberg",
+  "name": "University of Bamberg",
+  "country": "Germany"
+}, {
+  "id": 27,
+  "slug": "cochin",
+  "name": "Cochin University of Science and Technology",
+  "country": "India"
+}, {
+  "id": 28,
+  "slug": "bonchbruevich",
+  "name": "Bonch-Bruevich Saint-Petersburg State University of Telecommunications",
+  "country": "Russia"
+}, {
+  "id": 29,
+  "slug": "budapest",
+  "name": "Budapest University",
+  "country": "Hungary"
+}, {
+  "id": 30,
+  "slug": "holon",
+  "name": "Holon institute of technology",
+  "country": "Israel"
+}, {
+  "id": 31,
+  "slug": "icanas",
+  "name": "Institute of Cybernetics of the Azerbaijan National Academy of Sciences",
+  "country": "Azerbaijan"
+}, {
+  "id": 32,
+  "slug": "asm",
+  "name": "Academy of sciences of Moldova",
+  "country": "Moldavia"
+}, {
+  "id": 33,
+  "slug": "karelia",
+  "name": "Institute of Applied Mathematical Research of the Karelian Research Centre RAS",
+  "country": "Russia"
+}, {
+  "id": 34,
+  "slug": "pike",
+  "name": "Service Innovation Research Institute (PIKE)",
+  "country": "Finland"
+}, {
+  "id": 35,
+  "slug": "troyes",
+  "name": "Universite de Technologie de Troyes",
+  "country": "France"
+}, {
+  "id": 36,
+  "slug": "washington",
+  "name": "University of Washington",
+  "country": "USA"
+}, {
+  "id": 37,
+  "slug": "pisa",
+  "name": "Pisa University",
+  "country": "Italy"
+}, {
+  "id": 38,
+  "slug": "rtu",
+  "name": "Riga Technical University",
+  "country": "Latvia"
+}, {
+  "id": 39,
+  "slug": "gubkin",
+  "name": "Gubkin Russian State University of Oil and Gas",
+  "country": "Russia"
+}, {
+  "id": 40,
+  "slug": "ventspils",
+  "name": "Ventspils University College",
+  "country": "Latvia"
+}, {
+  "id": 41,
+  "slug": "mtuci",
+  "name": "Moscow Technical University of Communication and Informatics",
+  "country": "Russia"
+}, {
+  "id": 42,
+  "slug": "debrecen",
+  "name": "University of Debrecen",
+  "country": "Hungary"
+}, {
+  "id": 43,
+  "slug": "vrije",
+  "name": "Vrije Universiteit Amsterdam",
+  "country": "Netherlands"
+}, {
+  "id": 44,
+  "slug": "cuhk",
+  "name": "City University of Hong Kong",
+  "country": "Hong Kong"
+}, {
+  "id": 45,
+  "slug": "deakin",
+  "name": "Deakin University",
+  "country": "Australia"
+}, {
+  "id": 46,
+  "slug": "kpi",
+  "name": "Kyiv polytechnic institute",
+  "country": "Ukraine"
+}, {
+  "id": 47,
+  "slug": "iitp",
+  "name": "IITP RAS",
+  "country": "Russia"
+}, {
+  "id": 48,
+  "slug": "iitd",
+  "name": "Indian Institute of Technology Delhi",
+  "country": "India"
+}, {
+  "id": 49,
+  "slug": "ieee",
+  "name": "IEEE Russia Section Chapter, COM19 Chair",
+  "country": "Russia"
+}, {
+  "id": 50,
+  "slug": "msu",
+  "name": "Lomonosov Moscow State University",
+  "country": "Russia"
+}, {
+  "id": 51,
+  "slug": "nust",
+  "name": "Namibia University of Science and Technology",
+  "country": "Nambia"
+}, {
+  "id": 52,
+  "slug": "beu",
+  "name": "Baku Engineering University",
+  "country": "Azerbaijan"
+}
+]

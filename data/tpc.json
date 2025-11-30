@@ -1,0 +1,154 @@
+[{
+  "name": "V.M. Vishnevsky",
+  "chair": {
+    "order": 1
+  },
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "K.E. Samouylov",
+  "chair": {
+    "order": 2
+  },
+  "affiliations": [{"slug":"rudn"}]
+}, {
+  "name": "S.M. Abramov",
+  "affiliations": [{"slug":"psiras"}]
+},{
+  "name": "A.M. Andronov",
+  "affiliations": [{"slug":"tti"}]
+}, {
+  "name": "T. Atanasova",
+  "affiliations": [{"slug": "iict"}]
+}, {
+  "name": "S.E. Bankov",
+  "affiliations": [{"slug":"ireras"}],
+  "ieee": "member"
+}, {
+  "name": "A.S. Bugaev",
+  "affiliations": [{"slug":"mipt"}],
+  "ieee": "member"
+}, {
+  "name": "S.R. Chakravarthy",
+  "affiliations": [{"slug":"kettering"}]
+}, {
+  "name": "D. Deng",
+  "affiliations": [{"slug":"ncue"}]
+},  {
+  "name": "S. Dharmaraja",
+  "affiliations": [{"slug":"iitd"}]
+}, {
+  "name": "A.N. Dudin",
+  "affiliations": [{"slug":"bsu"}]
+}, {
+  "name": "A.V. Dvorkovich",
+  "affiliations": [{"slug":"mipt"}]
+}, {
+  "name": "D.V. Efrosinin",
+  "affiliations": [{"slug":"kepler"}]
+}, {
+  "name": "Yu.V. Gaidamaka",
+  "affiliations": [{"slug":"rudn"}]
+}, {
+  "name": "Yu.V. Gulyaev",
+  "affiliations": [{"slug":"ireras"}],
+  "ieee": "senior member"
+}, {
+  "name": "V.C. Joshua",
+  "affiliations": [{"slug":"cms"}]
+}, {
+  "name": "H. Karatza",
+  "affiliations": [{"slug":"aristotle"}],
+  "ieee": "senior member"
+}, {
+  "name": "N. Kolev",
+  "affiliations": [{"slug":"saopaulo"}]
+}, {
+  "name": "G. Kotsis",
+  "affiliations": [{"slug":"kepler"}]
+}, {
+  "name": "A.E. Koucheryavy",
+  "affiliations": [{"slug":"bonchbruevich"}],
+  "ieee": "member"
+},  {
+  "name": "A. Krishnamoorthy",
+  "affiliations": [{"slug":"cochin"}]
+}, {
+  "name": "R. Kumar",
+  "affiliations": [{"slug":"nust"}]
+}, {
+  "name": "N.A. Kuznetsov",
+  "affiliations": [{"slug":"mipt"}],
+  "ieee": "member"
+}, {
+  "name": "L. Lakatos",
+  "affiliations": [{"slug":"budapest"}]
+}, {
+  "name": "E. Levner",
+  "affiliations": [{"slug":"holon"}]
+}, {
+  "name": "S.D. Margenov",
+  "affiliations": [{"slug":"iict"}]
+}, {
+  "name": "N. Markovich",
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "A. Melikov",
+  "affiliations": [{"slug":"beu"}]
+}, {
+  "name": "E.V. Morozov",
+  "affiliations": [{"slug":"karelia"}]
+}, {
+  "name": "A.A. Nazarov",
+  "affiliations": [{"slug":"tsu"}]
+}, {
+  "name": "I.V. Nikiforov",
+  "affiliations": [{"slug":"troyes"}]
+}, {
+  "name": "S.A. Nikitov",
+  "affiliations": [{"slug":"ireras"}],
+  "ieee": "senior member"
+}, {
+  "name": "D.A. Novikov",
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "M. Pagano",
+  "affiliations": [{"slug":"pisa"}]
+},  {
+  "name": "V.V. Rykov",
+  "affiliations": [{"slug":"gubkin"}]
+}, {
+  "name": "R.L. Smeliansky",
+  "affiliations": [{"slug":"msu"}]
+}, {
+  "name": "A.N. Sobolevski",
+  "affiliations": [{"slug":"iitp"}]
+}, {
+  "name": "M.A. Sneps-Sneppe",
+  "affiliations": [{"slug":"ventspils"}]
+}, {
+  "name": "S.N. Stepanov",
+  "affiliations": [{"slug":"mtuci"}]
+}, {
+  "name": "S.P. Suschenko",
+  "affiliations": [{"slug":"tsu"}]
+}, {
+  "name": "J. Sztrik",
+  "affiliations": [{"slug":"debrecen"}]
+},  {
+  "name": "S.N. Vasiliev",
+  "affiliations": [{"slug":"ipu"}]
+},  {
+  "name": "M. Xie",
+  "affiliations": [{"slug":"cuhk"}],
+  "ieee": "fellow"
+}, {
+  "name": "A. Zaslavsky",
+  "affiliations": [{"slug":"deakin"}]
+}, {
+  "name": "I. Kochetkova",
+  "affiliations": [{"slug":"rudn"}]
+}, {
+  "name": "A. Rumyantsev",
+  "affiliations": [{"slug":"karelia"}]
+}
+]

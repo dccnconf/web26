@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Vladimir M. Vishnevsky",
+    "slug": "vishn",
+    "affiliations": [
+      {
+        "slug": "ipu"
+      }
+    ],
+    "avatar": "/images/avatars/vishnevsky.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dmitry A. Novikov",
+    "slug": "novik",
+    "position": "Director",
+    "affiliations": [
+      {
+        "slug": "ipu"
+      }
+    ],
+    "avatar": "/images/avatars/dan.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Konstantin E. Samouylov",
+    "slug": "sam",
+    "position": "Director, AMCT Institute",
+    "affiliations": [
+      {
+        "slug": "rudn"
+      }
+    ],
+    "avatar": "/images/avatars/samouylov.jpg"
+  }
+]
