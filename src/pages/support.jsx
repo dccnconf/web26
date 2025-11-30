@@ -3,7 +3,7 @@ import React from "react";
 import EmptyPagePlaceholder from "../components/EmptyPagePlaceholder";
 
 const SupportPage = () => (
-  <Layout pageTitle="Support | DCCN'2022" active="support">
+  <Layout pageTitle="Support | DCCN'2026" active="support">
       <section className="container mx-auto md:w-3/4 px-4 md:px-0" id="contact">
           <EmptyPagePlaceholder
             imageName="undraw_envelope_n8lc.svg"
