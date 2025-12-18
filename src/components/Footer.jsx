@@ -32,11 +32,11 @@ const Footer = () => (
               {getConferenceLinks().map((link, index) => <li key={index} className="my-3">{link}</li>)}
             </ul>
           </div>
-          {/*<div className="mt-8 sm:mt-0">*/}
-          {/*  <Link href={"/authors"} className="font-medium uppercase tracking-wider text-gray-500 hover:underline">*/}
-          {/*    Authors*/}
-          {/*  </Link>*/}
-          {/*</div>*/}
+          <div className="mt-8 sm:mt-0">
+            <Link href={"/authors"} className="font-medium uppercase tracking-wider text-gray-500 hover:underline">
+              Authors
+            </Link>
+          </div>
           {/*<div className="mt-8 sm:mt-0">*/}
           {/*  <Link href={"/program"} className="font-medium uppercase tracking-wider text-gray-500 hover:underline">*/}
           {/*    Program*/}

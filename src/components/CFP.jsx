@@ -12,13 +12,13 @@ const CFP = ({topics, className = ""} = {}) => {
       The accepted papers will be published in the Conference Proceedings volume (included into the Russian Science Citation Index).
     </p>
     <div className="pl-8 mt-8">
-      <a href="/downloads/DCCN2023_LaTeX_RU.zip" className="text-indigo-700">
+      <a href="/downloads/DCCN2026_LaTeX_RU.zip" className="text-indigo-700">
         <FontAwesomeIcon icon={faArchive} size="lg" className="mr-3"/>
         <span className="md:text-lg align-middle">Template in Russian</span>
       </a>
     </div>
     <div className="pl-8 mt-4">
-      <a href="/downloads/DCCN2023_LaTeX_EN.zip" className="text-indigo-700">
+      <a href="/downloads/DCCN2026_LaTeX_ENG.zip" className="text-indigo-700">
         <FontAwesomeIcon icon={faArchive} size="lg" className="mr-3"/>
         <span className="md:text-lg align-middle">Template in English</span>
       </a>
@@ -28,7 +28,7 @@ const CFP = ({topics, className = ""} = {}) => {
       For your convenience, we made available the DCCN templates in the scientific authoring platform Overleaf:
     </p>
     <div className="mt-4 pl-8">
-      <a href="https://www.overleaf.com/latex/templates/dccn2023-latex-ru/wwfcfgyycsxj"
+      <a href="https://www.overleaf.com/latex/templates/dccn2026-latex-ru/sddtycjtjmbx"
          target="_blank"
          className="text-indigo-700">
         <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
@@ -36,7 +36,7 @@ const CFP = ({topics, className = ""} = {}) => {
       </a>
     </div>
     <div className="mt-4 pl-8">
-      <a href="https://www.overleaf.com/latex/templates/dccn2023-submission-template-eng/stvdgxcjsggd"
+      <a href="https://www.overleaf.com/latex/templates/dccn2026-latex-eng/pztfxxdfnvcm"
          target="_blank"
          className="text-indigo-700">
         <FontAwesomeIcon icon={faLink} size="lg" className="mr-3"/>
