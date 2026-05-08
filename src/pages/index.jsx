@@ -69,19 +69,19 @@ export default function Home({committeeMembers, organizations, topics, deadlines
         </div>
       </section>
 
-      {/*<section id="fees" className="pt-12 bg-purple-100">*/}
-      {/*  <div className="container mx-auto px-4 pb-12 lg:w-1/2">*/}
-      {/*    <h2 className="h2">Registration & Fees</h2>*/}
-      {/*    <Fees className="mt-8"*/}
-      {/*        fees={fees}*/}
-      {/*    />*/}
-      {/*    /!*<p className="text-xl">*!/*/}
-      {/*    /!*  <Link href={"/support"} as="/support#payment">*!/*/}
-      {/*    /!*    <a className="text-blue-500 hover:underline">Read more...</a>*!/*/}
-      {/*    /!*  </Link>*!/*/}
-      {/*    /!*</p>*!/*/}
-      {/*  </div>*/}
-      {/*</section>*/}
+      <section id="fees" className="pt-12 bg-purple-100">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
+          <h2 className="h2">Registration & Fees</h2>
+          <Fees className="mt-8"
+              fees={fees}
+          />
+          {/*<p className="text-xl">*/}
+          {/*  <Link href={"/support"} as="/support#payment">*/}
+          {/*    <a className="text-blue-500 hover:underline">Read more...</a>*/}
+          {/*  </Link>*/}
+          {/*</p>*/}
+        </div>
+      </section>
 
       <section id="committee" className="pt-12">
         <div className="container mx-auto px-4 pb-12 lg:w-3/4">
