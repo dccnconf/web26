@@ -68,7 +68,7 @@ const FooterLink = ({ href, hash = undefined, label }) => (
 const getConferenceLinks = () => [
   <FooterLink href={"/"} hash="about" label="About" />,
   // <FooterLink href={"/"} hash="proceedings" label="Proceedings" />,
-  // <FooterLink href={"/"} hash="keynotes" label="Keynotes" />,
+  <FooterLink href={"/"} hash="keynotes" label="Keynotes" />,
   <FooterLink href={"/"} hash="timeline" label="Timeline" />,
   <FooterLink href={"/"} hash="venue" label="Venue" />,
   // <FooterLink href={"/"} hash="fees" label="Registration & Fees" />,
