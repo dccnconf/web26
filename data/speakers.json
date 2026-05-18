@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "al-bahri",
+    "name": "Mahmood Said Nasser Al-Bahri ",
+    "appeal": "Prof.",
+    "country": "Oman",
+    "affiliations": [
+      {
+        "name": "Sohar University",
+        "department": null,
+        "city": null,
+        "country": "Oman",
+        "position": "Assistant Professor"
+      }
+    ],
+    "avatar": "/images/avatars/al-bahri.jpeg"
+  },
+  {
+    "slug": "sayed",
+    "name": "Mohammed Sharaf Sayed",
+    "appeal": "Prof.",
+    "country": "Egypt",
+    "affiliations": [
+      {
+        "name": "Egypt-Japan University of Science and Technology",
+        "department": "School of Electronics, Communications, and Computer Engineering",
+        "city": null,
+        "country": "Egypt",
+        "position": "Professor"
+      }
+    ],
+    "avatar": "/images/avatars/sayed.jpg"
+  },
+  {
+    "slug": "hammoudeh",
+    "name": "Mohammad Hammoudeh",
+    "appeal": "Prof.",
+    "country": "Saudi Arabia",
+    "affiliations": [
+      {
+        "name": "Aramco Cybersecurity",
+        "department": null,
+        "city": null,
+        "country": null,
+        "position": "Chair Professor"
+      }
+    ],
+    "avatar": "/images/avatars/hammoudeh.jpeg"
+  }
+]

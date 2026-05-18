@@ -15,6 +15,7 @@ export const getDeadlines = () => {
       });
     } else {
       groupedDeadlines.push({
+        oldDate: deadline.oldDate || null,
         date: deadline.date,
         events: [{
           event: deadline.event,

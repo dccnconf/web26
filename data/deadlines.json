@@ -1,7 +1,8 @@
 [{
   "event": "End of papers submission",
   "important": true,
-  "date": "15.05.2026"
+  "oldDate": "15.05.2026",
+  "date": "01.06.2026"
 }, {
   "event": "Start of peer review",
   "date": "15.05.2026"

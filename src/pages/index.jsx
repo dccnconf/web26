@@ -15,8 +15,10 @@ import {getAllOrganizations} from "../libs/organizations";
 import {Venue} from "../components/Venue";
 import TpcMembersList from "../components/TpcMembersList";
 import {getAllTpcMembers} from "../libs/tpc";
+import KeynoteSpeakers from "../components/KeynoteSpeakers";
+import {getAllSpeakers} from "../libs/keynotes";
 
-export default function Home({committeeMembers, organizations, topics, deadlines, tpcMembers, fees}) {
+export default function Home({committeeMembers, organizations, topics, deadlines, tpcMembers, fees, speakers}) {
   return (
     <Layout pageTitle="DCCN'2026" active="conference">
       <div className="lg:pb-12">
@@ -45,15 +47,15 @@ export default function Home({committeeMembers, organizations, topics, deadlines
       {/*  </div>*/}
       {/*</section>*/}
 
-      {/*<section id="keynotes" className="mt-12">*/}
-      {/*  <div className="container mx-auto px-4 pb-12 lg:w-3/4">*/}
-      {/*    <h2 className="h2">Keynote Speakers</h2>*/}
-      {/*    <KeynoteSpeakers*/}
-      {/*      className="mt-12"*/}
-      {/*      speakers={speakers}*/}
-      {/*    />*/}
-      {/*  </div>*/}
-      {/*</section>*/}
+      <section id="keynotes" className="mt-12">
+        <div className="container mx-auto px-4 pb-12 lg:w-3/4">
+          <h2 className="h2">Keynote Speakers</h2>
+          <KeynoteSpeakers
+            className="mt-12"
+            speakers={speakers}
+          />
+        </div>
+      </section>
 
       <section id="timeline" className="pt-12">
         <h2 className="h2">Timeline</h2>
@@ -171,7 +173,7 @@ export const getStaticProps = async () => {
   const deadlines = getDeadlines();
   const fees = getAllFees();
   const organizations = getAllOrganizations();
-  // const speakers = getAllSpeakers();
+  const speakers = getAllSpeakers();
   const tpcMembers = getAllTpcMembers();
 
   return {
@@ -182,7 +184,7 @@ export const getStaticProps = async () => {
       topics,
       fees,
       organizations,
-      // speakers,
+      speakers,
       tpcMembers
     }
   }

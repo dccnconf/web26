@@ -14,6 +14,7 @@ const Timeline = ({ deadlines }) => {
             <TimelineItem
               icon={getStatusIcon(deadline.date)}
               date={deadline.date}
+              oldDate={deadline.oldDate}
               iconClassName={getStatusColorClass(deadline.date)}
               headerClassName={getHeaderColorClass(deadline.date)}
               key={index}
@@ -32,7 +33,7 @@ const Timeline = ({ deadlines }) => {
 };
 
 
-const TimelineItem = ({ iconClassName = 'bg-gray-400', headerClassName = 'text-indigo-600', icon, date, children }) => (
+const TimelineItem = ({ iconClassName = 'bg-gray-400', headerClassName = 'text-indigo-600', icon, date, oldDate, children }) => (
   <li className="mb-6">
     <div className="flex items-center">
       <div className={`${iconClassName} rounded-full flex items-center justify-center z-10`} style={{height: "48px", width: "48px"}}>
@@ -40,6 +41,13 @@ const TimelineItem = ({ iconClassName = 'bg-gray-400', headerClassName = 'text-i
       </div>
       <div className="flex-grow pl-8 lg:flex lg:items-center w-2/5">
         <div className="lg:w-64 shrink-0">
+          {oldDate &&
+            <h3 className={`font-extrabold text-l md:text-xl line-through opacity-60 ${headerClassName}`}>
+              <Moment parse="DD.MM.YYYY" format="DD MMM YYYY">
+                {oldDate}
+              </Moment>
+            </h3>
+          }
           <h3 className={`font-extrabold text-xl md:text-2xl ${headerClassName}`}>
             <Moment parse="DD.MM.YYYY" format="DD MMM YYYY">
               {date}

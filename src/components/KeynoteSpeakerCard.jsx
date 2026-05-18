@@ -55,10 +55,8 @@ const SpeakerName = ({ speaker, enableLink }) => {
   const customClassName = enableLink ? "text-blue-500 hover:underline" : "text-indigo-600 mb-1";
   if (enableLink) {
     return (
-      <Link href="/keynotes/[slug]" as={`/keynotes/${speaker.slug}`}>
-        <a className={`${commonClassName} ${customClassName}`}>
+      <Link href="/keynotes/[slug]" as={`/keynotes/${speaker.slug}`} className={`${commonClassName} ${customClassName}`}>
           {speaker.appeal} {speaker.name}
-        </a>
       </Link>
     );
   }

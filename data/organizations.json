@@ -316,5 +316,10 @@
   "slug": "shri",
   "name": "Shri Mata Vaishno Devi University",
   "country": "India"
+}, {
+  "id": 54,
+  "slug": "sohar",
+  "name": "Sohar University",
+  "country": "Oman"
 }
 ]

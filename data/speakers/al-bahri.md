@@ -1,0 +1,7 @@
+Dr. Mahmood Said Nasser Al Bahri is an Assistant Professor at Sohar University, Oman. He is an Associate Fellow of the Higher Education Academy (AFHEA) and currently serves as the Program Coordinator for Computing and Multimedia, as well as the Editor-in-Chief of the Sohar University Journal for Engineering and Information Technology (SUJEITI).
+
+Dr. Al Bahri has been recognized with the Vice Chancellor’s Award for Distinguished Teaching in acknowledgment of his excellence in academic delivery and student engagement. He is also the author of the Arabic book “Introduction to IoT”, contributing to the advancement of knowledge in emerging technologies within the region.
+
+His research interests span areas such as the Internet of Things (IoT), communication networks, and intelligent systems. He has published more than 76 research papers, the majority of which are indexed in Scopus, and has actively presented his work at international conferences across Europe, Asia, and the Middle East.
+
+Dr. Al Bahri has also secured multiple research grants, including strategic funding from the Ministry of Agriculture, Fisheries and Water Resources in Oman, as well as a block funding research project supported by the Ministry of Education, reflecting his active engagement in nationally relevant research initiatives.  In addition, he has supervised over 15 final-year project teams, several of which have received competitive funding from The Research Council (TRC), Oman.
