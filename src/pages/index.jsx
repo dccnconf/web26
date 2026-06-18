@@ -74,17 +74,18 @@ export default function Home({committeeMembers, organizations, topics, deadlines
       </section>
 
       <section id="fees" className="pt-12 bg-purple-100">
-        <p className="container mx-auto px-4 pb-12 lg:w-1/2">
-          <h2 className="h2">Registration & Fees</h2>
+        <h2 className="h2">Registration & Fees</h2>
+
+        <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
           <Fees className="mt-8"
                 fees={fees}
           />
-          <p className="text-xl">
-            <a href="/downloads/payments_instruction.docx" className="text-blue-500 hover:underline">
-              Payment details
-            </a>
+          <p className="md:leading-7 md:text-xl md:mx-auto text-gray-700 mt-4 font-bold">
+            <a href="/downloads/payment_details.pdf"
+               target="_blank"
+               className="text-indigo-700">Payment details</a>
           </p>
-        </p>
+        </div>
       </section>
 
       <section id="committee" className="pt-12">
