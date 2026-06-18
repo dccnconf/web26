@@ -81,7 +81,7 @@ export default function Home({committeeMembers, organizations, topics, deadlines
           />
           <p className="text-xl">
             <a href="/downloads/payments_instruction.docx" className="text-blue-500 hover:underline">
-              Read more
+              Payment details
             </a>
           </p>
         </p>
