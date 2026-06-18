@@ -46,5 +46,44 @@
       }
     ],
     "avatar": "/images/avatars/hammoudeh.jpeg"
+  },
+  {
+    "slug": "dharmaraja",
+    "name": "Dharmaraja Selvamuthu",
+    "appeal": "Prof.",
+    "country": "India",
+    "avatar": "/images/avatars/dharmaraja.png",
+    "affiliations": [
+      {
+        "name": "Indian Institute of Technology",
+        "department": "Department of Mathematics",
+        "city": null,
+        "country": "India",
+        "position": "Professor"
+      }
+    ]
+  },
+  {
+    "slug": "jayakody",
+    "name": "Dush Nalin Jayakody",
+    "appeal": "Prof.",
+    "country": null,
+    "avatar": "/images/avatars/jayakody.jpg",
+    "affiliations": [
+      {
+        "name": "Lusófona University, Portugal",
+        "department": null,
+        "city": null,
+        "country": "Postugal",
+        "position": "Professor"
+      },
+      {
+        "name": "Carnegie Mellon University",
+        "department": null,
+        "city": "Pittsburgh",
+        "country": "USA",
+        "position": "Visiting Professor"
+      }
+    ]
   }
 ]
