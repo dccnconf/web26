@@ -19,6 +19,7 @@ import KeynoteSpeakers from "../components/KeynoteSpeakers";
 import {getAllSpeakers} from "../libs/keynotes";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArchive} from "@fortawesome/free-solid-svg-icons";
+import Proceedings from "../components/Proceedings";
 
 export default function Home({committeeMembers, organizations, topics, deadlines, tpcMembers, fees, speakers}) {
   return (

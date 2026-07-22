@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faArchive, faLink} from "@fortawesome/free-solid-svg-icons";
+import {faArchive, faLink, faFilePdf} from "@fortawesome/free-solid-svg-icons";
 
 
 const CFP = ({topics, className = ""} = {}) => {
@@ -46,9 +46,29 @@ const CFP = ({topics, className = ""} = {}) => {
       </div>
 
       <p className="md:text-lg mt-8">
-        After a peer review and plagiarism check, authors of selected submissions in English, recommended by the Program
-        Committee,
-        will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
+        Please note, that peer review is double-blind. In order to provide the possibility of double-blind peer review,
+        when
+        first submitting the manuscripts the authors are asked to leave empty all fields that may identify the authors
+        (names, emails, affiliations, grant support).
+        In case a submission is not blinded, it will not move on to the review process.
+      </p>
+
+      <h3 className="h3 mt-8">Springer proceedings</h3>
+
+      <div className="mt-8 mb-12 container mx-auto">
+        <div className="flex px-4 flex-wrap items-center justify-around gap-y-8">
+          <img src="/images/springer_logo_small.jpg" style={{width: '200px'}}/>
+          <img src="/images/ccis_logo_small.jpg" style={{width: '180px'}}/>
+        </div>
+      </div>
+
+      <p className="md:text-lg mt-8">
+        Previous Springer proceedings are available at <a href="https://link.springer.com/conference/dccn" target="_blank" className="text-indigo-700">https://link.springer.com/conference/dccn</a>.
+      </p>
+
+      <p className="md:text-lg mt-8">
+        After a peer review and plagiarism check, authors of selected submissions in English, recommended by the
+        Program Committee, will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
         After a second round of review the accepted extended papers will be published by Springer (approval received)
         as a stand-alone volume of selected extended papers (indexed in Scopus and Web of Science).
       </p>
@@ -56,24 +76,25 @@ const CFP = ({topics, className = ""} = {}) => {
       <div className="pl-8 mt-4">
         <a href="/downloads/lncs.zip" className="text-indigo-700">
           <FontAwesomeIcon icon={faArchive} size="lg" className="mr-3"/>
-          <span className="md:text-lg align-middle">Springer LNCS template</span>
+          <span className="md:text-lg align-middle">Springer template</span>
         </a>
       </div>
 
-      <p className="md:text-lg mt-8">
-        Please note, that peer review is double-blind. In order to provide the possibility of double-blind peer review,
-        when
-        first submitting the manuscripts the authors are asked to leave empty all fields that may identify the authors
-        (names, emails, affiliations, grant support).
-        In case a submission is not blinded, it will not move on to the review process.
-      </p>
-      <p className="md:text-lg mt-8">
-        <span className="font-extrabold text-xl text-indigo-500 mr-1">Topics</span> include, but are not limited to the
-        following fields:
-      </p>
-      <ul className="list-inside md:text-lg pl-2 mt-4 list-disc leading-6">
-        {topics.map((topic, index) => <li className="text-base" key={index}>{topic}</li>)}
-      </ul>
+      <div className="pl-8 mt-4">
+        <a href="/downloads/code_of_conduct.pdf" className="text-indigo-700">
+          <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-4"/>
+          <span className="md:text-lg align-middle">Code of Conduct</span>
+        </a>
+      </div>
+
+      {/*<p className="md:text-lg mt-8">*/}
+      {/*  <span className="font-extrabold text-xl text-indigo-500 mr-1">Topics</span> include, but are not limited to*/}
+      {/*  the*/}
+      {/*  following fields:*/}
+      {/*</p>*/}
+      {/*<ul className="list-inside md:text-lg pl-2 mt-4 list-disc leading-6">*/}
+      {/*  {topics.map((topic, index) => <li className="text-base" key={index}>{topic}</li>)}*/}
+      {/*</ul>*/}
     </div>
   )
 };
