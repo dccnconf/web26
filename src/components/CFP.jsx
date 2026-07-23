@@ -55,6 +55,11 @@ const CFP = ({topics, className = ""} = {}) => {
 
       <h3 className="h3 mt-8">Springer proceedings</h3>
 
+      <p className="md:text-lg mt-8">
+        Traditionally, the revised selected submissions in English, recommended by the Program Committee, appear as a stand-alone
+        volume of selected extended papers published by Springer in Lecture Notes in Computer Science and Communication in Computer and Information Science series (indexed in Scopus).
+      </p>
+
       <div className="mt-8 mb-12 container mx-auto">
         <div className="flex px-4 flex-wrap items-center justify-around gap-y-8">
           <img src="/images/springer_logo_small.jpg" style={{width: '200px'}}/>
@@ -67,10 +72,8 @@ const CFP = ({topics, className = ""} = {}) => {
       </p>
 
       <p className="md:text-lg mt-8">
-        After a peer review and plagiarism check, authors of selected submissions in English, recommended by the
-        Program Committee, will be invited to submit their extended papers (12-15 pages in Springer LNCS template).
-        After a second round of review the accepted extended papers will be published by Springer (approval received)
-        as a stand-alone volume of selected extended papers (indexed in Scopus and Web of Science).
+        After a peer review and plagiarism check, authors of selected submissions will be invited to submit their extended papers (12-15 pages in Springer template).
+        After a second round of review the accepted extended papers will be published by Springer (approval received).
       </p>
 
       <div className="pl-8 mt-4">
