@@ -11,6 +11,21 @@
   },
   "affiliations": [{"slug":"rudn"}]
 }, {
+  "name": "N.M. Ivanova",
+  "chair": {
+    "order": 3,
+    "publication": true
+  },
+  "affiliations": [{"slug":"ipu"}]
+}, {
+  "name": "D.V. Kozyrev",
+  "chair": {
+    "order": 4,
+    "publication": true,
+    "publicity": true
+  },
+  "affiliations": [{"slug":"rudn"}]
+},  {
   "name": "S.M. Abramov",
   "affiliations": [{"slug":"psiras"}]
 },{

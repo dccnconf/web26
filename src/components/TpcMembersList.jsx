@@ -17,16 +17,32 @@ const TpcMembersList = ({ members, className = ""}) => {
   )
 };
 
-const TpcMember = ({ member, className = "" }) => {
+const ChairContent = ({ member }) => {
+  if (!member.chair) return null;
+
+  let sign = "General Chait";
+
+  if (member.chair.publicity) {
+    sign = "Publicity Chair"
+  }
+
+  if (member.chair.publication) {
+    sign = "Publication Chair"
+  }
+
+  if (member.chair.publicity && member.chair.publication) {
+    sign = "Publication and Publicity Chair"
+  }
+
+  return <div className="text-sm text-indigo-500 font-bold">
+    {sign}
+  </div>
+}
+
+const TpcMember = ({member, className = ""}) => {
   return (
     <div className={className}>
-      {
-        member.chair && (
-          <div className="text-sm text-indigo-500 font-bold">
-            General Chair
-          </div>
-        )
-      }
+      <ChairContent member={member} />
       <h6 className="text-lg font-bold text-black">{member.name}</h6>
       <ul className="mt-1 text-gray-600 font-medium">
         {

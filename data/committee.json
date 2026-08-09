@@ -13,22 +13,22 @@
   "avatar": "/images/avatars/samouylov.jpg",
   "order": 2
 }, {
-  "name": "Dmitry Kozyrev",
-  "slug": "dmitry",
-  "affiliations": [{"slug": "ipu"}, {"slug": "rudn"}],
-  "avatar": "/images/avatars/kozyrev.jpeg",
+  "name": "Nika Ivanova",
+  "slug": "nika",
+  "affiliations": [{"slug":  "ipu"}],
+  "avatar": "/images/avatars/ivanova_nika.png",
   "order": 3
 }, {
-  "name": "Irina Kochetkova",
-  "slug": "gudkova",
-  "affiliations": [{"slug":  "rudn"}],
-  "avatar": "/images/avatars/gudkova.jpeg",
+  "name": "Dmitry Kozyrev",
+  "slug": "dmitry",
+  "affiliations": [{"slug": "rudn"}],
+  "avatar": "/images/avatars/kozyrev.jpeg",
   "order": 4
 }, {
-  "name": "Yana Aleksandrova",
-  "slug": "yana",
+  "name": "Olga Semenova",
+  "slug": "olga",
   "affiliations": [{"slug":  "ipu"}],
-  "avatar": "/images/avatars/yana_aleksandrova.png",
+  "avatar": "/images/avatars/semenova_olga.jpg",
   "order": 5
 }, {
   "name": "Svetlana Moiseeva",
@@ -37,10 +37,10 @@
   "avatar": "/images/avatars/moiseeva.png",
   "order": 6
 }, {
-  "name": "Nika Ivanova",
-  "slug": "nika",
+  "name": "Yana Aleksandrova",
+  "slug": "yana",
   "affiliations": [{"slug":  "ipu"}],
-  "avatar": "/images/avatars/ivanova_nika.jpg",
+  "avatar": "/images/avatars/yana_aleksandrova.png",
   "order": 7
 }, {
   "name": "Tatiana Atanasova",

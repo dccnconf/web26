@@ -38,12 +38,15 @@ export const getAllTpcMembers = () => {
       };
     })
     .sort((a, b) => {
-      if (!a.chair && !b.chair)
+      if (!a.chair && !b.chair) {
         return compareNames(a, b);
-      if (a.chair && !b.chair)
+      }
+      if (a.chair && !b.chair) {
         return -1;
-      if (!a.chair && b.chair)
+      }
+      if (!a.chair && b.chair) {
         return 1;
+      }
       return a.chair.order < b.chair.order ? -1 : a.chair.order === b.chair.order ? 0 : 1;
     });
 }
