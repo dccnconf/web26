@@ -31,10 +31,10 @@
   "avatar": "/images/avatars/semenova_olga.jpg",
   "order": 5
 }, {
-  "name": "Svetlana Moiseeva",
-  "slug": "moiseeva",
-  "affiliations": [{"slug":  "tsu"}],
-  "avatar": "/images/avatars/moiseeva.png",
+  "name": "Irina Kochetkova",
+  "slug": "gudkova",
+  "affiliations": [{"slug":  "rudn"}],
+  "avatar": "/images/avatars/gudkova.jpeg",
   "order": 6
 }, {
   "name": "Yana Aleksandrova",
@@ -42,10 +42,16 @@
   "affiliations": [{"slug":  "ipu"}],
   "avatar": "/images/avatars/yana_aleksandrova.png",
   "order": 7
+},  {
+  "name": "Svetlana Moiseeva",
+  "slug": "moiseeva",
+  "affiliations": [{"slug":  "tsu"}],
+  "avatar": "/images/avatars/moiseeva.png",
+  "order": 8
 }, {
   "name": "Tatiana Atanasova",
   "slug": "atanasova",
   "affiliations": [{"slug":  "iict"}],
   "avatar": "/images/avatars/atanasova.jpg",
-  "order": 8
+  "order": 9
 }]

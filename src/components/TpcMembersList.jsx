@@ -20,7 +20,7 @@ const TpcMembersList = ({ members, className = ""}) => {
 const ChairContent = ({ member }) => {
   if (!member.chair) return null;
 
-  let sign = "General Chait";
+  let sign = "General Chair";
 
   if (member.chair.publicity) {
     sign = "Publicity Chair"
