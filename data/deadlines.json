@@ -20,7 +20,8 @@
   "date": "15.07.2026"
 },{
   "event": "Fee payment deadline",
-  "date": "15.08.2026"
+  "oldDate": "15.08.2026",
+  "date": "18.09.2026"
 }, {
   "event": "Conference in Moscow",
   "important": true,
