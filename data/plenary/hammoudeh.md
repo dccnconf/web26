@@ -1,3 +1,5 @@
 ---
-title: ""
+title: "Turning the attacker's toolbox into a standardised instrument of AI assurance"
 ---
+
+Machine-learning models are entering telecommunications infrastructure faster than the means to assure them. Standard benchmarks report average-case accuracy, but the quantity that governs trustworthiness in critical networks is worst-case behaviour under a deliberate adversary. This talk reframes adversarial AI — evasion, poisoning, extraction, and inversion — not as a threat to be excluded but as the basis of a rigorous testing discipline: the crash-test laboratory of the AI era. It surveys how adversarial perturbations degrade model resilience and correctness, then develops the practical machinery of assurance — adversarial test-case generation, reusable test scripts, and shared testbeds — and argues that the missing ingredient is a conformance-grade verdict: a reproducible, statistically calibrated, budget-parameterised accept/reject decision. It closes with the ethics of dual-use testing.
