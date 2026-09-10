@@ -17,6 +17,11 @@ module.exports = {
       ]
     }
   },
+  safelist: [
+    'text-orange-300', 'text-orange-500', 'bg-orange-100',
+    'text-green-300', 'text-green-500', 'bg-green-100',
+    'text-purple-300', 'text-purple-500', 'bg-purple-100',
+  ],
   theme: {
     extend: {
       colors: {

@@ -82,14 +82,14 @@ export default function Navbar({active = 'conference'}) {
 
               <NavbarLink text="Authors" isActive={active === 'authors'} href="/authors"/>
 
-              {/*<NavbarDropdownItem*/}
-              {/*  isActive={active === 'program'}*/}
-              {/*  text="Program"*/}
-              {/*  isShown={isShown.program}*/}
-              {/*  setIsShown={shown => setIsMenuShown('program', shown)}*/}
-              {/*>*/}
-              {/*  <ProgramMenu onClick={closeAll}/>*/}
-              {/*</NavbarDropdownItem>*/}
+              <NavbarDropdownItem
+                isActive={active === 'program'}
+                text="Program"
+                isShown={isShown.program}
+                setIsShown={shown => setIsMenuShown('program', shown)}
+              >
+                <ProgramMenu onClick={closeAll}/>
+              </NavbarDropdownItem>
 
               <NavbarLink text="Support" isActive={active === 'support'} href="/support"/>
 
@@ -234,7 +234,7 @@ const ProgramMenu = ({onClick}) => (
       onClick={onClick}
     />
     <NavbarDropdownMenuItem
-      href="/program" as="/program#trb" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"
+      href="/program" as="/program#trb1" icon={faWaveSquare} text="Track B: Analytical Modeling of Distributed Systems"
       comment="General sessions schedule for Analytical Modeling of Distributed Systems track"
       onClick={onClick}
     />

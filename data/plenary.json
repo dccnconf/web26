@@ -1,0 +1,100 @@
+[
+  {
+    "date": "2026-09-21",
+    "links": [],
+    "video": null,
+    "parts": [
+      {
+        "id": 0,
+        "startTime": "2026-09-21T10:00+03:00",
+        "endTime": "2023-09-25T13:00+03:00",
+        "type": "registration",
+        "chairs": [],
+        "name": "Registration & Coffee Break (Room 220)"
+      },
+      {
+        "id": 1,
+        "name": "DCCN Opening (University Club)",
+        "type": "opening",
+        "startTime": "2026-09-21T11:00+03:00",
+        "endTime": "2026-09-21T11:05+03:00",
+        "chairs": ["vishn"]
+      },
+      {
+        "id": 2,
+        "name": "Welcome speech (University Club)",
+        "type": "opening",
+        "startTime": "2026-09-21T11:05+03:00",
+        "endTime": "2026-09-21T11:15+03:00",
+        "chairs": ["sam", "dharmaraja"]
+      },
+      {
+        "id": 3,
+        "name": "Plenary Session (Room 708)",
+        "type": "session",
+        "startTime": "2026-09-21T11:15+03:00",
+        "endTime": "2026-09-21T12:45+03:00",
+        "lectures": [
+          {
+            "speaker": {
+              "slug": "jayakody"
+            },
+            "startTime": "2026-09-21T11:15+03:00",
+            "duration": "45m"
+          },
+          {
+            "speaker": {
+              "slug": "al-bahri"
+            },
+            "startTime": "2026-09-21T12:00+03:00",
+            "duration": "45m"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Lunch (University Canteen)",
+        "type": "break",
+        "startTime": "2026-09-21T12:45+03:00",
+        "endTime": "2026-09-21T14:00+03:00"
+      },
+      {
+        "id": 5,
+        "name": "Plenary Session (Room University Club)",
+        "type": "session",
+        "startTime": "2026-09-21T14:00+03:00",
+        "endTime": "2026-09-21T16:15+03:00",
+        "lectures": [
+          {
+            "speaker": {
+              "slug": "sayed"
+            },
+            "startTime": "2026-09-21T14:00+03:00",
+            "duration": "45m"
+          },
+          {
+            "speaker": {
+              "slug": "hammoudeh"
+            },
+            "startTime": "2026-09-21T14:45+03:00",
+            "duration": "45m"
+          },
+          {
+            "speaker": {
+              "slug": "dharmaraja"
+            },
+            "startTime": "2026-09-21T15:30+03:00",
+            "duration": "45m"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Welcome Reception (University Canteen)",
+        "type": "break",
+        "startTime": "2026-09-21T16:30+03:00",
+        "endTime": "2026-09-21T18:00+03:00"
+      }
+    ]
+  }
+]

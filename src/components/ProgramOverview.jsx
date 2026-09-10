@@ -23,38 +23,34 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
       <div className="border-b-2 pb-8">
         <p className="mb-4 text-lg text-gray-700 leading-7">You may find these links useful:</p>
         <ul className="list-disc pl-4">
+          {/*<li>*/}
+          {/*  <a href="/downloads/DCCN2026_program_overview.pdf" target="_blank" className="text-blue-500 hover:underline">*/}
+          {/*    <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2023_program_overview.PDF*/}
+          {/*  </a>*/}
+          {/*  <span className="ml-2 leading-7 text-gray-700 text-lg">*/}
+          {/*    - top view of the schedule grid in PDF format*/}
+          {/*  </span>*/}
+          {/*</li>*/}
           <li>
-            <a href="/downloads/DCCN2023_program_overview.pdf" target="_blank" className="text-blue-500 hover:underline">
-              <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2023_program_overview.PDF
-            </a>
-            <span className="ml-2 leading-7 text-gray-700 text-lg">
-              - top view of the schedule grid in PDF format
-            </span>
-          </li>
-          <li>
-            <a href="/downloads/DCCN2023_program.pdf" target="_blank" className="text-blue-500 hover:underline">
-              <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2023_program.PDF
+            <a href="/downloads/DCCN2026_program.pdf" target="_blank" className="text-blue-500 hover:underline">
+              <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2026_program.PDF
             </a>
             <span className="ml-2 leading-7 text-gray-700 text-lg">
               - full conference program in PDF format
             </span>
           </li>
           <li>
-            <Link href={"/program"} as="/program#plenary">
-              <a className="text-blue-500 text-lg leading-7 hover:underline">
+            <Link href={"/program"} as="/program#plenary" className="text-blue-500 text-lg leading-7 hover:underline">
                 <FontAwesomeIcon icon={faStar} className="mr-2 text-yellow-500" />
                 <span>Plenary session program</span>
-              </a>
             </Link>
           </li>
           {
             tracks && tracks.map((track, index) => (
               <li key={index}>
-                <Link href={"/program"} as={`/program#${track.slug}`}>
-                  <a className="text-blue-500 text-lg leading-7 hover:underline">
+                <Link href={"/program"} as={`/program#${track.slug}`} className="text-blue-500 text-lg leading-7 hover:underline">
                     <FontAwesomeIcon icon={track.icon} className={`mr-2 ${getTrackTextColor(track, { heavy: true })}`} />
                     <span>Track {track.letter}: {track.name}</span>
-                  </a>
                 </Link>
               </li>
             ))
@@ -168,10 +164,8 @@ function TrackSessionCell({ track, interval }) {
         </div>
         <div className="font-medium">
           <div>
-            <Link href={"/program"} as={`/program#${session.slug}`}>
-              <a className="text-blue-500 hover:underline">
+            <Link href={"/program"} as={`/program#${session.slug}`} className="text-blue-500 hover:underline">
                 Session {session.name}
-              </a>
             </Link>
           </div>
         </div>
@@ -205,10 +199,8 @@ function SingleSessionCell({ interval, tracks, isPlenary = false } = {}) {
           {
             (isPlenary || interval.type === "plenary") && interval.type !== "break"
               ? (
-                <Link href={"/program"} as="/program#plenary">
-                  <a className="text-blue-500 hover:underline">
+                <Link href={"/program"} as="/program#plenary" className="text-blue-500 hover:underline">
                     {label}
-                  </a>
                 </Link>
               ) : (
                 <div>{label}</div>

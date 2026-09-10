@@ -52,11 +52,9 @@ export default function TrackProgram({program, track, className = ""} = {}) {
 
             <SessionTable session={session} duration={program.common.lecture.duration} />
             <p className="mt-2 mb-10">
-              <Link href={"/program"} as="/program#top">
-                <a className="text-blue-500 hover:underline">
+              <Link href={"/program"} as="/program#top" className="text-blue-500 hover:underline">
                   <FontAwesomeIcon icon={faAngleUp} className="mr-1" />
                   Back to top
-                </a>
               </Link>
             </p>
           </div>
@@ -91,8 +89,8 @@ function SessionTable({ session, duration, className = ""} = {}) {
               </td>
               <td className="border border-gray-300 px-2 text-gray-700 leading-tight py-2">
                 <div>
-                  <Link href={"/papers/[id]"} as={`/papers/${lecture.paper.id}`}>
-                    <a className="text-blue-500 hover:underline">{lecture.paper.title}</a>
+                  <Link href={"/papers/[id]"} as={`/papers/${lecture.paper.id}`} className="text-blue-500 hover:underline">
+                   {lecture.paper.title}
                   </Link>
                 </div>
                 <div className="text-sm">

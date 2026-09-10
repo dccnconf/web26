@@ -12,6 +12,17 @@
   },
   {
     "id": 2,
+    "slug": "dharmaraja",
+    "name": "Dharmaraja Selvamuthu",
+    "affiliations": [
+      {
+        "slug": "iitd"
+      }
+    ],
+    "avatar": "/images/avatars/dharmaraja.png"
+  },
+  {
+    "id": 3,
     "name": "Dmitry A. Novikov",
     "slug": "novik",
     "position": "Director",
@@ -23,7 +34,7 @@
     "avatar": "/images/avatars/dan.jpeg"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Konstantin E. Samouylov",
     "slug": "sam",
     "position": "Director, AMCT Institute",

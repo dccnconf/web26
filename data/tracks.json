@@ -5,7 +5,7 @@
   "order": 1,
   "color": "pink-200",
   "icon": "network-wired",
-  "room": 214,
+  "room": 208,
   "topics": [
     "Communication networks algorithms and protocols",
     "Wireless and mobile networks",
@@ -19,8 +19,24 @@
   ]
 }, {
   "name": "Modeling of Distributed Systems and Networks",
-  "slug": "trb",
-  "letter": "B",
+  "slug": "trb1",
+  "letter": "B-1",
+  "order": 2,
+  "room": 218,
+  "color": "green-200",
+  "icon": "wave-square",
+  "topics": [
+    "Performance analysis, QoS/QoE evaluation and network efficiency",
+    "Analytical modeling and simulation of communication systems",
+    "Probabilistic and statistical models in information systems",
+    "Queuing theory and reliability theory applications",
+    "Quantum Information and quantum communication",
+    "Machine learning, big data, artificial intelligence"
+  ]
+}, {
+  "name": "Modeling of Distributed Systems and Networks",
+  "slug": "trb2",
+  "letter": "B-2",
   "order": 2,
   "room": 219,
   "color": "green-200",
@@ -38,7 +54,7 @@
   "slug": "trc",
   "letter": "C",
   "order": 3,
-  "room": 218,
+  "room": 219,
   "color": "purple-200",
   "icon": "desktop",
   "topics": [

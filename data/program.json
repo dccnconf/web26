@@ -1,0 +1,1352 @@
+{
+  "days": [
+    {
+      "date": "2026-09-21",
+      "description": "DCCN opening day and plenary session",
+      "plenary": true,
+      "online": {
+        "links": [],
+        "video": null
+      },
+      "intervals": [
+        {
+          "startTime": "2026-09-21T10:00+03:00",
+          "endTime": "2026-09-21T11:00+03:00",
+          "type": "sessions",
+          "label": "Registration (Room 220)"
+        },
+        {
+          "startTime": "2026-09-21T11:00+03:00",
+          "endTime": "2026-09-21T11:05+03:00",
+          "type": "special",
+          "label": "Conference Opening (University Club)"
+        },
+        {
+          "startTime": "2026-09-21T11:05+03:00",
+          "endTime": "2026-09-21T11:15+03:00",
+          "type": "special",
+          "label": "Welcome speech"
+        },
+        {
+          "startTime": "2026-09-21T11:15+03:00",
+          "endTime": "2026-09-21T12:00+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-21T12:00+03:00",
+          "endTime": "2026-09-21T12:45+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-21T12:45+03:00",
+          "endTime": "2026-09-21T14:00+03:00",
+          "type": "break",
+          "label": "Lunch"
+        },
+        {
+          "startTime": "2026-09-21T14:00+03:00",
+          "endTime": "2026-09-21T14:45+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-21T14:45+03:00",
+          "endTime": "2026-09-21T15:30+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-21T15:30+03:00",
+          "endTime": "2026-09-21T16:15+03:00",
+          "type": "plenary",
+          "sessions": [
+            {
+              "slug": "P.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-21T16:30+03:00",
+          "endTime": "2026-09-21T18:00+03:00",
+          "type": "special",
+          "label": "Welcome Reception"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "description": "Conference session",
+      "online": {
+        "links": []
+      },
+      "intervals": [
+        {
+          "startTime": "2026-09-22T10:00+03:00",
+          "endTime": "2026-09-22T11:00+03:00",
+          "type": "reg",
+          "label": "Registration (Room 220) up to 13:00"
+        },
+        {
+          "startTime": "2026-09-22T11:00+03:00",
+          "endTime": "2026-09-22T12:30+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.1"
+            },
+            {
+              "slug": "B-1.1"
+            },
+            {
+              "slug": "B-2.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-22T12:30+03:00",
+          "endTime": "2026-09-22T13:15+03:00",
+          "type": "break",
+          "label": "Lunch (University Canteen)"
+        },
+        {
+          "startTime": "2026-09-22T13:15+03:00",
+          "endTime": "2026-09-22T14:45+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.2"
+            },
+            {
+              "slug": "B-1.2"
+            },
+            {
+              "slug": "B-2.2"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-22T14:45+03:00",
+          "endTime": "2026-09-22T15:15+03:00",
+          "type": "break",
+          "label": "Coffee Break (University Canteen)"
+        },
+        {
+          "startTime": "2026-09-22T15:15+03:00",
+          "endTime": "2026-09-22T16:15+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.3"
+            },
+            {
+              "slug": "B-1.3"
+            },
+            {
+              "slug": "B-2.3"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-22T16:15+03:00",
+          "endTime": "2026-09-22T16:30+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "B-1.3"
+            },
+            {
+              "slug": "B-2.3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "description": "Conference session",
+      "online": {
+        "links": []
+      },
+      "intervals": [
+        {
+          "startTime": "2026-09-23T10:00+03:00",
+          "endTime": "2026-09-23T11:00+03:00",
+          "type": "reg",
+          "label": "Registration (Room 220) up to 13:00"
+        },
+        {
+          "startTime": "2026-09-22T11:00+03:00",
+          "endTime": "2026-09-22T12:30+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.4"
+            },
+            {
+              "slug": "B-1.4"
+            },
+            {
+              "slug": "C.1"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-23T12:30+03:00",
+          "endTime": "2026-09-23T13:15+03:00",
+          "type": "break",
+          "label": "Lunch (University Canteen)"
+        },
+        {
+          "startTime": "2026-09-23T13:15+03:00",
+          "endTime": "2026-09-23T14:45+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.5"
+            },
+            {
+              "slug": "B-1.5"
+            },
+            {
+              "slug": "C.2"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-23T14:45+03:00",
+          "endTime": "2026-09-23T15:15+03:00",
+          "type": "break",
+          "label": "Coffee Break (University Canteen)"
+        },
+        {
+          "startTime": "2026-09-23T15:15+03:00",
+          "endTime": "2026-09-23T16:45+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "A.6"
+            },
+            {
+              "slug": "B-1.6"
+            },
+            {
+              "slug": "C.3"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-23T16:45+03:00",
+          "endTime": "2026-09-23T17:00+03:00",
+          "type": "sessions",
+          "sessions": [
+            {
+              "slug": "C.3"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-23T17:00+03:00",
+          "endTime": "2026-09-23T19:00+03:00",
+          "type": "special",
+          "label": "Gala Dinner (University Canteen)"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "description": "Guided City Tour",
+      "closing": true,
+      "online": {
+        "links": [],
+        "video": null
+      },
+      "tableTitle": "Guided City Tour",
+      "intervals": [
+        {
+          "startTime": "2024-09-26T12:00+03:00",
+          "endTime": "2024-09-26T17:00+03:00",
+          "type": "special",
+          "label": "Guided City Tour",
+          "chairs": []
+        }
+      ]
+    },
+    {
+      "date": "2026-09-25",
+      "description": "Conference closing day",
+      "closing": true,
+      "online": {
+        "links": [],
+        "video": null
+      },
+      "tableTitle": "Conference closing",
+      "intervals": [
+        {
+          "startTime": "2026-09-25T11:00+03:00",
+          "endTime": "2026-09-25T12:30+03:00",
+          "type": "panel",
+          "label": "Round Table with the participation of young scientists: Future networks 2030, artificial intelligence and big data (Room 219)",
+          "chairs": [
+            {
+              "slug": "vishn"
+            },
+            {
+              "slug": "sam"
+            }
+          ]
+        },
+        {
+          "startTime": "2026-09-25T12:30+03:00",
+          "endTime": "2026-09-25T13:00+03:00",
+          "type": "special",
+          "label": "DCCN closing"
+        }
+      ]
+    }
+  ],
+  "chairs": [
+    {
+      "name": "D. Selvamuthu",
+      "slug": "selv",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Muthanna",
+      "slug": "muth",
+      "appeal": "Dr."
+    },
+    {
+      "name": "A. Paramonov",
+      "slug": "par",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Levner",
+      "slug": "lev",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Kushchazli",
+      "slug": "kush",
+      "appeal": "Dr."
+    },
+    {
+      "name": "Vladimir M. Vishnevsky",
+      "slug": "vishn",
+      "appeal": "Prof.",
+      "affiliations": [
+        {
+          "slug": "ipu"
+        }
+      ],
+      "avatar": "/images/avatars/vishnevsky.jpg"
+    },
+    {
+      "name": "Konstantin E. Samouylov",
+      "slug": "sam",
+      "appeal": "Prof.",
+      "affiliations": [
+        {
+          "slug": "rudn"
+        }
+      ],
+      "avatar": "/images/avatars/samouylov.jpg"
+    },
+    {
+      "name": "Yu. Gaidamaka",
+      "slug": "yug",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Sopin",
+      "slug": "sop",
+      "appeal": "Dr."
+    },
+    {
+      "name": "D. Namiot",
+      "slug": "nam",
+      "appeal": "Prof."
+    },
+    {
+      "name": "R. Smeliansky",
+      "slug": "smel",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Stepanov",
+      "slug": "ste",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Nazarov",
+      "slug": "naz",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Morozov",
+      "slug": "mor",
+      "appeal": "Prof."
+    },
+    {
+      "name": "R. Nekrasova",
+      "slug": "nekr",
+      "appeal": "Prof."
+    },
+    {
+      "name": "D. Efrosinin",
+      "slug": "efr",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Vlaskina",
+      "slug": "vlas",
+      "appeal": "Dr."
+    },
+    {
+      "name": "S. Vasilyev",
+      "slug": "vas",
+      "appeal": "Dr."
+    },
+    {
+      "name": "A. Andronov",
+      "slug": "and",
+      "appeal": "Prof"
+    },
+    {
+      "name": "V. Rykov",
+      "slug": "ryk",
+      "appeal": "Prof."
+    },
+    {
+      "name": "T. Atanasova",
+      "slug": "ata",
+      "appeal": "Prof."
+    },
+    {
+      "name": " J. Sztrik",
+      "slug": "szt",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Shchetinin",
+      "slug": "shc",
+      "appeal": "Prof."
+    },
+    {
+      "name": "D. Kulyabov",
+      "slug": "kul",
+      "appeal": "Prof."
+    },
+    {
+      "name": "D. Kozyrev",
+      "slug": "koz",
+      "appeal": "Dr."
+    },
+    {
+      "name": "O. Semenova",
+      "slug": "sem",
+      "appeal": "Dr."
+    },
+    {
+      "name": "A. Krishnamoorthy",
+      "slug": "kri",
+      "appeal": "Prof."
+    },
+    {
+      "name": "Varghese C. Joshua",
+      "slug": "jos",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Dudin",
+      "slug": "dud",
+      "appeal": "Prof."
+    },
+    {
+      "name": "N. Dudin",
+      "slug": "ndud",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Fedorova",
+      "slug": "fed",
+      "appeal": "Dr."
+    },
+    {
+      "name": "N. Markovich",
+      "slug": "mar",
+      "appeal": "Prof."
+    },
+    {
+      "name": "A. Koucheryavy",
+      "slug": "kou",
+      "appeal": "Prof."
+    },
+    {
+      "name": "Y. Koucheryavy",
+      "slug": "kou2",
+      "appeal": "Prof."
+    },
+    {
+      "name": "I. Kochetkova",
+      "slug": "koc",
+      "appeal": "Dr."
+    },
+    {
+      "name": "S. Paul",
+      "slug": "paul",
+      "appeal": "Dr."
+    },
+    {
+      "name": "D. Ostrikova",
+      "slug": "ost",
+      "appeal": "Dr."
+    },
+    {
+      "name": "M. Makolkina",
+      "slug": "mak",
+      "appeal": "Dr."
+    },
+    {
+      "name": "R. Kirichek",
+      "slug": "kir",
+      "appeal": "Prof."
+    },
+    {
+      "name": "K. Vytovtov",
+      "slug": "vyt",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Barabanova",
+      "slug": "bar",
+      "appeal": "Prof."
+    },
+    {
+      "name": "N. Bakanova",
+      "slug": "bak",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Markova",
+      "slug": "ema",
+      "appeal": "Dr."
+    },
+    {
+      "name": "M. Gevorkyan",
+      "slug": "gev",
+      "appeal": "Dr."
+    },
+    {
+      "name": "C. Kim",
+      "slug": "kim",
+      "appeal": "Prof."
+    },
+    {
+      "name": "E. Schetinin",
+      "slug": "sch",
+      "appeal": "Prof."
+    },
+    {
+      "name": "V. Bogatyrev",
+      "slug": "bog",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Moiseeva",
+      "slug": "moi",
+      "appeal": "Prof."
+    },
+    {
+      "name": "I. Peshkova",
+      "slug": "pesh",
+      "appeal": "Dr."
+    },
+    {
+      "name": "A.Mandel",
+      "slug": "man",
+      "appeal": "Prof."
+    },
+    {
+      "name": "V. Beschastnyi",
+      "slug": "bes",
+      "appeal": "Dr."
+    },
+    {
+      "name": "V. Begishev",
+      "slug": "beg",
+      "appeal": "Dr."
+    },
+    {
+      "name": "I. Zaryadov",
+      "slug": "zar",
+      "appeal": "Dr."
+    },
+    {
+      "name": "N. Ivanova",
+      "slug": "iva",
+      "appeal": "Dr."
+    },
+    {
+      "name": "M. Khachumov",
+      "slug": "kha",
+      "appeal": "Dr."
+    },
+    {
+      "name": "L. Sevastianov",
+      "slug": "sev",
+      "appeal": "Prof."
+    },
+    {
+      "name": "S. Portnoy",
+      "slug": "port",
+      "appeal": "Prof."
+    }
+  ],
+  "common": {
+    "lecture": {
+      "duration": {
+        "minutes": 15
+      }
+    }
+  },
+  "sessions": [
+    {
+      "slug": "P.1",
+      "label": "Plenary session"
+    },
+    {
+      "slug": "A.1",
+      "name": "A.1",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "par"
+        },
+        {
+          "slug": "ema"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4126,
+          "startTime": "2026-09-22T11:00+03:00"
+        },
+        {
+          "paperId": 4130,
+          "startTime": "2026-09-22T11:15+03:00"
+        },
+        {
+          "paperId": 4266,
+          "startTime": "2026-09-22T11:30+03:00"
+        },
+        {
+          "paperId": 4121,
+          "startTime": "2026-09-22T11:45+03:00"
+        },
+        {
+          "paperId": 4144,
+          "startTime": "2026-09-22T12:00+03:00"
+        },
+        {
+          "paperId": 4185,
+          "startTime": "2026-09-22T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.2",
+      "name": "A.2",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "kou2"
+        },
+        {
+          "slug": "muth"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4505,
+          "startTime": "2026-09-22T13:15+03:00"
+        },
+        {
+          "paperId": 4220,
+          "startTime": "2026-09-22T13:30+03:00"
+        },
+        {
+          "paperId": 4504,
+          "startTime": "2026-09-22T13:45+03:00"
+        },
+        {
+          "paperId": 4217,
+          "startTime": "2026-09-22T14:00+03:00"
+        },
+        {
+          "paperId": 4207,
+          "startTime": "2026-09-22T14:15+03:00"
+        },
+        {
+          "paperId": 4219,
+          "startTime": "2026-09-22T14:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.3",
+      "name": "A.3",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "sam"
+        },
+        {
+          "slug": "muth"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4134,
+          "startTime": "2026-09-22T15:15+03:00"
+        },
+        {
+          "paperId": 4507,
+          "startTime": "2026-09-22T15:30+03:00"
+        },
+        {
+          "paperId": 4231,
+          "startTime": "2026-09-22T15:45+03:00"
+        },
+        {
+          "paperId": 4213,
+          "startTime": "2026-09-22T16:00+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.4",
+      "name": "A.4",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "kir"
+        },
+        {
+          "slug": "sop"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4160,
+          "startTime": "2026-09-23T11:00+03:00"
+        },
+        {
+          "paperId": 4074,
+          "startTime": "2026-09-23T11:15+03:00"
+        },
+        {
+          "paperId": 4506,
+          "startTime": "2026-09-23T11:30+03:00"
+        },
+        {
+          "paperId": 4503,
+          "startTime": "2026-09-23T11:45+03:00"
+        },
+        {
+          "paperId": 4125,
+          "startTime": "2026-09-23T12:00+03:00"
+        },
+        {
+          "paperId": 4221,
+          "startTime": "2026-09-23T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.5",
+      "name": "A.5",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "vishn"
+        },
+        {
+          "slug": "sop"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4226,
+          "startTime": "2026-09-23T13:15+03:00"
+        },
+        {
+          "paperId": 4195,
+          "startTime": "2026-09-23T13:30+03:00"
+        },
+        {
+          "paperId": 4150,
+          "startTime": "2026-09-23T13:45+03:00"
+        },
+        {
+          "paperId": 4117,
+          "startTime": "2026-09-23T14:00+03:00"
+        },
+        {
+          "paperId": 4167,
+          "startTime": "2026-09-23T14:15+03:00"
+        },
+        {
+          "paperId": 4149,
+          "startTime": "2026-09-23T14:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "A.6",
+      "name": "A.6",
+      "track": {
+        "slug": "tra"
+      },
+      "chairs": [
+        {
+          "slug": "lev"
+        },
+        {
+          "slug": "kush"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4173,
+          "startTime": "2026-09-23T15:15+03:00"
+        },
+        {
+          "paperId": 4197,
+          "startTime": "2026-09-23T15:30+03:00"
+        },
+        {
+          "paperId": 4198,
+          "startTime": "2026-09-23T15:45+03:00"
+        },
+        {
+          "paperId": 4138,
+          "startTime": "2026-09-23T16:00+03:00"
+        },
+        {
+          "paperId": 4216,
+          "startTime": "2026-09-23T16:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-1.1",
+      "name": "B-1.1",
+      "track": {
+        "slug": "trb1"
+      },
+      "chairs": [
+        {
+          "slug": "ndud"
+        },
+        {
+          "slug": "fed"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4152,
+          "startTime": "2026-09-22T11:00+03:00"
+        },
+        {
+          "paperId": 4142,
+          "startTime": "2026-09-22T11:15+03:00"
+        },
+        {
+          "paperId": 4502,
+          "startTime": "2026-09-22T11:30+03:00"
+        },
+        {
+          "paperId": 4153,
+          "startTime": "2026-09-22T11:45+03:00"
+        },
+        {
+          "paperId": 4155,
+          "startTime": "2026-09-22T12:00+03:00"
+        },
+        {
+          "paperId": 4215,
+          "startTime": "2026-09-22T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-1.2",
+      "name": "B-1.2",
+      "track": {
+        "slug": "trb1"
+      },
+      "chairs": [
+        {
+          "slug": "sam"
+        },
+        {
+          "slug": "selv"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4328,
+          "startTime": "2026-09-22T13:15+03:00"
+        },
+        {
+          "paperId": 4161,
+          "startTime": "2026-09-22T13:30+03:00"
+        },
+        {
+          "paperId": 4518,
+          "startTime": "2026-09-22T13:45+03:00"
+        },
+        {
+          "paperId": 4327,
+          "startTime": "2026-09-22T14:00+03:00"
+        },
+        {
+          "paperId": 4227,
+          "startTime": "2026-09-22T14:15+03:00"
+        },
+        {
+          "paperId": 4230,
+          "startTime": "2026-09-22T14:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-1.3",
+      "name": "B-1.3",
+      "track": {
+        "slug": "trb1"
+      },
+      "chairs": [
+        {
+          "slug": "efr"
+        },
+        {
+          "slug": "vlas"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4148,
+          "startTime": "2026-09-22T15:15+03:00"
+        },
+        {
+          "paperId": 4211,
+          "startTime": "2026-09-22T15:30+03:00"
+        },
+        {
+          "paperId": 4164,
+          "startTime": "2026-09-22T15:45+03:00"
+        },
+        {
+          "paperId": 4183,
+          "startTime": "2026-09-22T16:00+03:00"
+        },
+        {
+          "paperId": 4116,
+          "startTime": "2026-09-22T16:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-1.4",
+      "name": "B-1.4",
+      "track": {
+        "slug": "trb1"
+      },
+      "chairs": [
+        {
+          "slug": "moi"
+        },
+        {
+          "slug": "pesh"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4092,
+          "startTime": "2026-09-23T11:00+03:00"
+        },
+        {
+          "paperId": 4030,
+          "startTime": "2026-09-23T11:15+03:00"
+        },
+        {
+          "paperId": 4184,
+          "startTime": "2026-09-23T11:30+03:00"
+        },
+        {
+          "paperId": 4072,
+          "startTime": "2026-09-23T11:45+03:00"
+        },
+        {
+          "paperId": 4179,
+          "startTime": "2026-09-23T12:00+03:00"
+        },
+        {
+          "paperId": 4200,
+          "startTime": "2026-09-23T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-1.5",
+      "name": "B-1.5",
+      "track": {
+        "slug": "trb1"
+      },
+      "chairs": [
+        {
+          "slug": "ryk"
+        },
+        {
+          "slug": "mar"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4132,
+          "startTime": "2026-09-23T13:15+03:00"
+        },
+        {
+          "paperId": 4147,
+          "startTime": "2026-09-23T13:30+03:00"
+        },
+        {
+          "paperId": 4228,
+          "startTime": "2026-09-23T13:45+03:00"
+        },
+        {
+          "paperId": 4212,
+          "startTime": "2026-09-23T14:00+03:00"
+        },
+        {
+          "paperId": 4232,
+          "startTime": "2026-09-23T14:15+03:00"
+        },
+        {
+          "paperId": 4058,
+          "startTime": "2026-09-23T14:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-1.6",
+      "name": "B-1.6",
+      "track": {
+        "slug": "trb1"
+      },
+      "chairs": [
+        {
+          "slug": "mor"
+        },
+        {
+          "slug": "nekr"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4598,
+          "startTime": "2026-09-23T15:15+03:00"
+        },
+        {
+          "paperId": 3997,
+          "startTime": "2026-09-23T15:30+03:00"
+        },
+        {
+          "paperId": 4118,
+          "startTime": "2026-09-23T15:45+03:00"
+        },
+        {
+          "paperId": 4519,
+          "startTime": "2026-09-23T16:00+03:00"
+        },
+        {
+          "paperId": 4191,
+          "startTime": "2026-09-23T16:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-2.1",
+      "name": "B-2.1",
+      "track": {
+        "slug": "trb2"
+      },
+      "chairs": [
+        {
+          "slug": "yug"
+        },
+        {
+          "slug": "sem"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4088,
+          "startTime": "2026-09-22T11:00+03:00"
+        },
+        {
+          "paperId": 4107,
+          "startTime": "2026-09-22T11:15+03:00"
+        },
+        {
+          "paperId": 4201,
+          "startTime": "2026-09-22T11:30+03:00"
+        },
+        {
+          "paperId": 4514,
+          "startTime": "2026-09-22T11:45+03:00"
+        },
+        {
+          "paperId": 4067,
+          "startTime": "2026-09-22T12:00+03:00"
+        },
+        {
+          "paperId": 4178,
+          "startTime": "2026-09-22T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-2.2",
+      "name": "B-2.2",
+      "track": {
+        "slug": "trb2"
+      },
+      "chairs": [
+        {
+          "slug": "koc"
+        },
+        {
+          "slug": "paul"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4089,
+          "startTime": "2026-09-22T13:15+03:00"
+        },
+        {
+          "paperId": 4344,
+          "startTime": "2026-09-22T13:30+03:00"
+        },
+        {
+          "paperId": 4194,
+          "startTime": "2026-09-22T13:45+03:00"
+        },
+        {
+          "paperId": 4090,
+          "startTime": "2026-09-22T14:00+03:00"
+        },
+        {
+          "paperId": 4206,
+          "startTime": "2026-09-22T14:15+03:00"
+        },
+        {
+          "paperId": 4115,
+          "startTime": "2026-09-22T14:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "B-2.3",
+      "name": "B-2.3",
+      "track": {
+        "slug": "trb2"
+      },
+      "chairs": [
+        {
+          "slug": "moi"
+        },
+        {
+          "slug": "iva"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4186,
+          "startTime": "2026-09-22T15:15+03:00"
+        },
+        {
+          "paperId": 4146,
+          "startTime": "2026-09-22T15:30+03:00"
+        },
+        {
+          "paperId": 4010,
+          "startTime": "2026-09-22T15:45+03:00"
+        },
+        {
+          "paperId": 4351,
+          "startTime": "2026-09-22T16:00+03:00"
+        },
+        {
+          "paperId": 4091,
+          "startTime": "2026-09-22T16:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.1",
+      "name": "C.1",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "smel"
+        },
+        {
+          "slug": "nam"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4084,
+          "startTime": "2026-09-23T11:00+03:00"
+        },
+        {
+          "paperId": 4027,
+          "startTime": "2026-09-23T11:15+03:00"
+        },
+        {
+          "paperId": 4046,
+          "startTime": "2026-09-23T11:30+03:00"
+        },
+        {
+          "paperId": 4199,
+          "startTime": "2026-09-23T11:45+03:00"
+        },
+        {
+          "paperId": 4168,
+          "startTime": "2026-09-23T12:00+03:00"
+        },
+        {
+          "paperId": 4006,
+          "startTime": "2026-09-23T12:15+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.2",
+      "name": "C.2",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "sev"
+        },
+        {
+          "slug": "port"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4120,
+          "startTime": "2026-09-23T13:15+03:00"
+        },
+        {
+          "paperId": 4129,
+          "startTime": "2026-09-23T13:30+03:00"
+        },
+        {
+          "paperId": 4354,
+          "startTime": "2026-09-23T13:45+03:00"
+        },
+        {
+          "paperId": 4145,
+          "startTime": "2026-09-23T14:00+03:00"
+        },
+        {
+          "paperId": 4218,
+          "startTime": "2026-09-23T14:15+03:00"
+        },
+        {
+          "paperId": 4361,
+          "startTime": "2026-09-23T14:30+03:00"
+        }
+      ]
+    },
+    {
+      "slug": "C.3",
+      "name": "C.3",
+      "track": {
+        "slug": "trc"
+      },
+      "chairs": [
+        {
+          "slug": "vishn"
+        },
+        {
+          "slug": "bak"
+        }
+      ],
+      "lectures": [
+        {
+          "paperId": 4360,
+          "startTime": "2026-09-23T15:15+03:00"
+        },
+        {
+          "paperId": 4073,
+          "startTime": "2026-09-23T15:30+03:00"
+        },
+        {
+          "paperId": 4064,
+          "startTime": "2026-09-23T15:45+03:00"
+        },
+        {
+          "paperId": 4099,
+          "startTime": "2026-09-23T16:00+03:00"
+        },
+        {
+          "paperId": 4496,
+          "startTime": "2026-09-23T16:15+03:00"
+        },
+        {
+          "paperId": 4495,
+          "startTime": "2026-09-23T16:30+03:00"
+        }
+      ]
+    }
+
+  ]
+}
