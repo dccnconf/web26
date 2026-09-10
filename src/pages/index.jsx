@@ -62,14 +62,14 @@ export default function Home({committeeMembers, organizations, topics, deadlines
 
       <section id="timeline" className="pt-12">
         <h2 className="h2">Timeline</h2>
-        <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
           <Timeline deadlines={deadlines}/>
         </div>
       </section>
 
       <section id="venue" className="pt-12">
         <h2 className="h2">Venue</h2>
-        <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
           <Venue />
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function Home({committeeMembers, organizations, topics, deadlines
       <section id="fees" className="pt-12 bg-purple-100">
         <h2 className="h2">Registration & Fees</h2>
 
-        <div className="container mx-4 md:mx-auto py-12 xl:w-1/2 lg:w-2/3">
+        <div className="container mx-auto px-4 pb-12 lg:w-1/2">
           <Fees className="mt-8"
                 fees={fees}
           />

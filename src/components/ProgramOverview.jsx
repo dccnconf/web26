@@ -90,7 +90,7 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
 
 function ProgDayTable({progDay, tracks, className = ""} = {}) {
   return (
-    <div className={className}>
+    <div className={className} style={{ overflow: "scroll" }}>
       <table className="min-w-full divide-y divide-gray-200 table-fixed">
         <thead>
         <tr className="">

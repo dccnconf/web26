@@ -13,7 +13,7 @@ const ProgramPage = ({ program, tracks, plenary }) => {
   return (
     <Layout pageTitle={"Schedule | DCCN'2024"} active="program">
       <section className="container mx-auto md:w-3/4 px-4 md:px-0" id="top">
-        <h2 className="h2">Conference Schedule</h2>
+        <h2 className="h2 mt-8">Conference Schedule</h2>
         <ProgramOverview program={program} tracks={tracks} className="mt-8"/>
       </section>
       <section className="my-12 pt-4 pb-12" id="plenary">
