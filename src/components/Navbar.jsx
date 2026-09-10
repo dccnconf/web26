@@ -139,7 +139,7 @@ export default function Navbar({active = 'conference'}) {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 gap-y-4">
                       <NavbarLink text="Conference" href="/" onClick={closeAll}/>
                       <NavbarLink text="Authors" href="/authors" onClick={closeAll}/>
-                      {/*<NavbarLink text="Program" href="/program" onClick={closeAll}/>*/}
+                      <NavbarLink text="Program" href="/program" onClick={closeAll}/>
                       <NavbarLink text="Contact Us" href="/support" onClick={closeAll}/>
                     </div>
                     <div className="space-y-6"/>
