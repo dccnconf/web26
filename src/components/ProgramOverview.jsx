@@ -23,14 +23,14 @@ const ProgramOverview = ({ program, tracks, className = "" }) => {
       <div className="border-b-2 pb-8">
         <p className="mb-4 text-lg text-gray-700 leading-7">You may find these links useful:</p>
         <ul className="list-disc pl-4">
-          {/*<li>*/}
-          {/*  <a href="/downloads/DCCN2026_program_overview.pdf" target="_blank" className="text-blue-500 hover:underline">*/}
-          {/*    <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2023_program_overview.PDF*/}
-          {/*  </a>*/}
-          {/*  <span className="ml-2 leading-7 text-gray-700 text-lg">*/}
-          {/*    - top view of the schedule grid in PDF format*/}
-          {/*  </span>*/}
-          {/*</li>*/}
+          <li>
+            <a href="/downloads/DCCN2026_program_overview.pdf" target="_blank" className="text-blue-500 hover:underline">
+              <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2026_program_overview.PDF
+            </a>
+            <span className="ml-2 leading-7 text-gray-700 text-lg">
+              - top view of the schedule grid in PDF format
+            </span>
+          </li>
           <li>
             <a href="/downloads/DCCN2026_program.pdf" target="_blank" className="text-blue-500 hover:underline">
               <FontAwesomeIcon icon={faFilePdf} size="lg" className="mr-2 text-purple-500"/>DCCN2026_program.PDF

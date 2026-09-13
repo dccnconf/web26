@@ -30,7 +30,7 @@
       },
       {
         "id": 3,
-        "name": "Plenary Session (Room 708)",
+        "name": "Plenary Session (University Club)",
         "type": "session",
         "startTime": "2026-09-21T11:15+03:00",
         "endTime": "2026-09-21T12:45+03:00",
@@ -60,7 +60,7 @@
       },
       {
         "id": 5,
-        "name": "Plenary Session (Room University Club)",
+        "name": "Plenary Session (University Club)",
         "type": "session",
         "startTime": "2026-09-21T14:00+03:00",
         "endTime": "2026-09-21T16:15+03:00",

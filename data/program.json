@@ -165,7 +165,7 @@
           ]
         },
         {
-          "startTime": "2026-09-22T16:15+03:00",
+          "startTime": "2026-09-22T15:15+03:00",
           "endTime": "2026-09-22T16:30+03:00",
           "type": "sessions",
           "sessions": [
@@ -238,7 +238,7 @@
         },
         {
           "startTime": "2026-09-23T15:15+03:00",
-          "endTime": "2026-09-23T16:45+03:00",
+          "endTime": "2026-09-23T16:30+03:00",
           "type": "sessions",
           "sessions": [
             {
@@ -253,8 +253,8 @@
           ]
         },
         {
-          "startTime": "2026-09-23T16:45+03:00",
-          "endTime": "2026-09-23T17:00+03:00",
+          "startTime": "2026-09-23T16:30+03:00",
+          "endTime": "2026-09-23T16:45+03:00",
           "type": "sessions",
           "sessions": [
             {
@@ -875,7 +875,7 @@
       },
       "chairs": [
         {
-          "slug": "ndud"
+          "slug": "dud"
         },
         {
           "slug": "fed"

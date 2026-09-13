@@ -22,7 +22,7 @@ const ProgramPage = ({ program, tracks, plenary }) => {
           <h3 className="text-2xl font-extrabold text-indigo-600 text-center leading-tight">
             <Moment format="DD MMM. YYYY, dddd">{plenary.date}</Moment>
           </h3>
-          <h4 className="text-xl font-bold text-center leading-tight mt-0 text-gray-500">Room 708</h4>
+          <h4 className="text-xl font-bold text-center leading-tight mt-0 text-gray-500">University Club</h4>
           <ProgramPlenary
             className={""}
             schedule={plenary}

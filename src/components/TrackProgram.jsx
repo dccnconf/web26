@@ -19,18 +19,18 @@ export default function TrackProgram({program, track, className = ""} = {}) {
         sessions.map((session, index) => (
           <div key={index} id={session.slug}>
             <h5 className="text-2xl font-extrabold mt-8 mb-1 leading-tight">
-              Session {session.name}
+              Session {session.name} (Room {track.room})
             </h5>
             <p className="text-lg font-extrabold mt-0 text-indigo-600 leading-tight mb-2">
               <Moment format="DD MMM., dddd">{session.day.date}</Moment>,
-              <Moment format="HH:mm" className="ml-3">{session.interval.startTime}</Moment>
+              <Moment format="HH:mm" className="ml-3">{session.lectures[0].startTime}</Moment>
               <span className="mx-1">-</span>
-              <Moment format="HH:mm">{session.interval.endTime}</Moment>
+              <Moment format="HH:mm">{moment(session.lectures.at(-1).startTime).add(15, "m").tz('Europe/Moscow').toDate()}</Moment>
             </p>
 
             {
               getSessionLink(program, session).map((link, index) => (
-                <VideoConfLink link={link} className="my-6" key={index} />
+                <VideoConfLink link={link} className="my-6" key={index}/>
               ))
             }
 
@@ -43,18 +43,18 @@ export default function TrackProgram({program, track, className = ""} = {}) {
                 {
                   session.chairs && session.chairs.map((chair, index) => (
                     <li key={index} className="mb-0 text-gray-700 font-medium leading-5 sm:ml-2">
-                      {chair.appeal} {chair.name}{ index === session.chairs.length - 1 ? "" : ", "}
+                      {chair.appeal} {chair.name}{index === session.chairs.length - 1 ? "" : ", "}
                     </li>
                   ))
                 }
               </ul>
             </div>
 
-            <SessionTable session={session} duration={program.common.lecture.duration} />
+            <SessionTable session={session} duration={program.common.lecture.duration}/>
             <p className="mt-2 mb-10">
-              <Link href={"/program"} as="/program#top" className="text-blue-500 hover:underline">
-                  <FontAwesomeIcon icon={faAngleUp} className="mr-1" />
-                  Back to top
+              <Link className="text-blue-500 hover:underline" href={"/program"} as="/program#top">
+                <FontAwesomeIcon icon={faAngleUp} className="mr-1"/>
+                Back to top
               </Link>
             </p>
           </div>
@@ -89,8 +89,8 @@ function SessionTable({ session, duration, className = ""} = {}) {
               </td>
               <td className="border border-gray-300 px-2 text-gray-700 leading-tight py-2">
                 <div>
-                  <Link href={"/papers/[id]"} as={`/papers/${lecture.paper.id}`} className="text-blue-500 hover:underline">
-                   {lecture.paper.title}
+                  <Link className="text-blue-500 hover:underline" href={"/papers/[id]"} as={`/papers/${lecture.paper.id}`}>
+                    {lecture.paper.title}
                   </Link>
                 </div>
                 <div className="text-sm">
