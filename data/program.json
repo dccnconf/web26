@@ -5,7 +5,17 @@
       "description": "DCCN opening day and plenary session",
       "plenary": true,
       "online": {
-        "links": [],
+        "links": [
+          {
+            "text": "MTS Link for plenary session",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25256845732",
+            "disabled": false,
+            "track": {
+              "slug": "P.1"
+            }
+          }
+        ],
         "video": null
       },
       "intervals": [
@@ -95,7 +105,35 @@
       "date": "2026-09-22",
       "description": "Conference session",
       "online": {
-        "links": []
+        "links": [
+          {
+            "text": "MTS Link for Track A (22.09.2026)",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25263522799",
+            "disabled": false,
+            "track": {
+              "slug": "tra"
+            }
+          },
+          {
+            "text": "MTS Link for Track B-1 (22.09.2026)",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25263758526",
+            "disabled": false,
+            "track": {
+              "slug": "trb-1"
+            }
+          },
+          {
+            "text": "MTS Link for Track B-2 (22.09.2026)",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25263855666",
+            "disabled": false,
+            "track": {
+              "slug": "trb-2"
+            }
+          }
+        ]
       },
       "intervals": [
         {
@@ -183,7 +221,35 @@
       "date": "2026-09-23",
       "description": "Conference session",
       "online": {
-        "links": []
+        "links": [
+          {
+            "text": "MTS Link for Track A (23.09.2026)",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25263522799",
+            "disabled": false,
+            "track": {
+              "slug": "tra"
+            }
+          },
+          {
+            "text": "MTS Link for Track B-1 (23.09.2026)",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25263758526",
+            "disabled": false,
+            "track": {
+              "slug": "trb-1"
+            }
+          },
+          {
+            "text": "MTS Link for Track C (23.09.2026)",
+            "type": "webinar",
+            "url": "https://my.mts-link.ru/j/82895095/25263891471",
+            "disabled": false,
+            "track": {
+              "slug": "trc"
+            }
+          }
+        ]
       },
       "intervals": [
         {

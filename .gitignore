@@ -143,4 +143,5 @@ dist
 
 # Python
 .venv/
+venv/
 *.pyc
