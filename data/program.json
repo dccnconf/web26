@@ -121,7 +121,7 @@
             "url": "https://my.mts-link.ru/j/82895095/25263758526",
             "disabled": false,
             "track": {
-              "slug": "trb-1"
+              "slug": "trb1"
             }
           },
           {
@@ -130,7 +130,7 @@
             "url": "https://my.mts-link.ru/j/82895095/25263855666",
             "disabled": false,
             "track": {
-              "slug": "trb-2"
+              "slug": "trb2"
             }
           }
         ]
@@ -237,7 +237,7 @@
             "url": "https://my.mts-link.ru/j/82895095/25263758526",
             "disabled": false,
             "track": {
-              "slug": "trb-1"
+              "slug": "trb1"
             }
           },
           {
