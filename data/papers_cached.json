@@ -1,5 +1,12 @@
 [
   {
+    "id": 1,
+    "slug": "al-bahri",
+    "title": "Quantum Computing for Distributed Networks: New Paradigms in Control, Computation, and Communications",
+    "type": "plenary",
+    "authors": ["Mahmood Said Nasser Al Bahri"]
+  },
+  {
     "id": 4126,
     "title": "Determinism-Enhanced Anomaly Detection for Zero-Trust Industrial Control Systems",
     "abstract": "Securing industrial control systems (ICS) against evolving cyber-attacks is critical. Traditional deterministic rules lack adaptability, while deep learning models often suffer from high latency and false alarm rates. Motivated by the need for deterministic rigor in critical systems, this paper proposes a two-stage hybrid anomaly detection framework tailored for zero-trust ICS communication. In the first stage, a sequence-constrained deterministic finite automaton (SC-DFA) acts as the behavioral filter, enforcing transition invariants to rapidly detect evident anomalies and reduce the latency of deep learning analysis in the second stage. Experimental results demonstrate that this approach is efficient, effective, and robust, balancing high-speed filtering with granular detection.",

@@ -84,14 +84,20 @@ function SessionTable({ session, duration, className = ""} = {}) {
                 </div>
                 <div className="text-gray-600 italic">
                   <FontAwesomeIcon icon={faClock} className="mr-1" />
-                  {duration.minutes}m
+                  {lecture.duration || `${duration.minutes}m`}
                 </div>
               </td>
               <td className="border border-gray-300 px-2 text-gray-700 leading-tight py-2">
                 <div>
-                  <Link className="text-blue-500 hover:underline" href={"/papers/[id]"} as={`/papers/${lecture.paper.id}`}>
-                    {lecture.paper.title}
-                  </Link>
+                  {
+                    lecture.paper.type === "plenary" ? 
+                    <Link className="text-blue-500 hover:underline" href={"/keynotes/[id]"} as={`/keynotes/${lecture.paper.slug}`}>
+                      {lecture.paper.title}
+                    </Link> : 
+                    <Link className="text-blue-500 hover:underline" href={"/papers/[id]"} as={`/papers/${lecture.paper.id}`}>
+                      {lecture.paper.title}
+                    </Link>
+                  }
                 </div>
                 <div className="text-sm">
                   {lecture.paper.authors.map(a => a.name).join(", ")}
