@@ -4,6 +4,8 @@ import {faDoorOpen} from "@fortawesome/free-solid-svg-icons";
 import {faFilePdf} from "@fortawesome/free-regular-svg-icons";
 import {faYoutube} from "@fortawesome/free-brands-svg-icons";
 import {faBook} from "@fortawesome/free-solid-svg-icons";
+import {faVideo} from "@fortawesome/free-solid-svg-icons";
+
 
 
 export default function Hero({ plenary }) {
@@ -41,7 +43,7 @@ export default function Hero({ plenary }) {
         {/*  </div>*/}
         {/*</div>*/}
 
-        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
+        {/* <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
           <div className="rounded-md shadow">
             <a href="https://uconfy.com/conf/27/"
                target="_blank"
@@ -58,19 +60,19 @@ export default function Hero({ plenary }) {
             {/*  <FontAwesomeIcon icon={faWindows} size="lg" className="mr-2 hidden md:block"/>*/}
             {/*  Join plenary session*/}
             {/*</a>*/}
+          {/*</div>
+        </div>*/}
+
+        <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
+          <div className="rounded-md shadow">
+            <a href="https://disk.yandex.ru/client/aa/d_PLTfWujj_M_Rjw"
+               target="_blank"
+               className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-12">
+              <FontAwesomeIcon icon={faVideo} size="lg" className="mr-2" />
+              Watch plenary session
+            </a>
           </div>
         </div>
-
-        {/*<div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">*/}
-        {/*  <div className="rounded-md shadow">*/}
-        {/*    <a href="https://youtu.be/oemtm_MLfsk"*/}
-        {/*       target="_blank"*/}
-        {/*       className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-12">*/}
-        {/*      <FontAwesomeIcon icon={faYoutube} size="lg" className="mr-2" />*/}
-        {/*      Watch plenary session on YouTube*/}
-        {/*    </a>*/}
-        {/*  </div>*/}
-        {/*</div>*/}
 
         <div className="mt-3 mx-0 md:mx-16 lg:mx-0 lg:w-1/2 xl:w-4/7">
           <div className="rounded-md shadow">
